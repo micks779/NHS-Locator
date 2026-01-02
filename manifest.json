@@ -1,0 +1,21 @@
+
+{
+  "short_name": "ELFT Locator",
+  "name": "ELFT Sites & Teams Locator",
+  "icons": [
+    {
+      "src": "https://www.elft.nhs.uk/sites/default/files/logo_0.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://www.elft.nhs.uk/sites/default/files/logo_0.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#005eb8",
+  "background_color": "#ffffff"
+}

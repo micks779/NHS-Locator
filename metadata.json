@@ -1,0 +1,12 @@
+
+{
+  "name": "ELFT Sites & Teams Locator",
+  "description": "An interactive map and directory for East London NHS Foundation Trust sites and the teams based within them.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "pwa": {
+    "manifest": "manifest.json",
+    "serviceWorker": "sw.js"
+  }
+}
