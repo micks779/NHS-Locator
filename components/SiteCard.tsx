@@ -27,7 +27,22 @@ export const getCategoryColor = (category: ServiceCategory, isMatch: boolean) =>
 };
 
 const SiteCard: React.FC<SiteCardProps> = ({ site, onClick, onTeamClick, compact = false, searchQuery = '' }) => {
-  const getDirectionsUrl = () => `https://www.google.com/maps/dir/?api=1&destination=${site.latitude},${site.longitude}`;
+  const getDirectionsUrl = () => {
+    // Use full address string for better accuracy in Google Maps
+    // The address field may already include postcode, so we construct it carefully
+    let destination = '';
+    if (site.address) {
+      // Combine site name and address, postcode is optional
+      const fullAddress = site.postcode 
+        ? `${site.name}, ${site.address}, ${site.postcode}`
+        : `${site.name}, ${site.address}`;
+      destination = encodeURIComponent(fullAddress);
+    } else {
+      // Fallback to coordinates if address is missing
+      destination = `${site.latitude},${site.longitude}`;
+    }
+    return `https://www.google.com/maps/dir/?api=1&destination=${destination}`;
+  };
 
   const displayTeams = React.useMemo(() => {
     if (!searchQuery) return site.teams.slice(0, 5);

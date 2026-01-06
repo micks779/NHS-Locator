@@ -51,14 +51,21 @@ const MapView: React.FC<MapViewProps> = ({ sites, selectedSiteId, onSiteClick })
         iconAnchor: [16, 32]
       });
 
+      // Escape HTML to prevent XSS (defense-in-depth)
+      const escapeHtml = (text: string) => {
+        const div = document.createElement('div');
+        div.textContent = text;
+        return div.innerHTML;
+      };
+
       const marker = L.marker([site.latitude, site.longitude], { icon: customIcon })
         .addTo(mapRef.current!)
         .on('click', () => onSiteClick(site))
         .bindTooltip(
           `<div style="font-family: system-ui, -apple-system, sans-serif; padding: 8px 12px; font-weight: 700; font-size: 13px; color: #005eb8; text-align: center; white-space: nowrap;">
-            ${site.name}
+            ${escapeHtml(site.name)}
             <div style="font-size: 10px; color: #6b7280; font-weight: 600; margin-top: 2px; text-transform: uppercase; letter-spacing: 0.05em;">
-              ${site.borough}
+              ${escapeHtml(site.borough)}
             </div>
           </div>`,
           {

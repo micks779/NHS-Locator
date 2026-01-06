@@ -257,6 +257,48 @@ const App: React.FC = () => {
 
   const filteredSites = useMemo(() => {
     let result = processedSites;
+    
+    // Debug: Log initial state
+    if (processedSites.length === 0) {
+      console.warn('⚠️ No sites in processedSites. Check data loading.');
+    } else {
+      console.log(`📊 Filtering ${processedSites.length} sites. Active filters:`, {
+        viewingTeam: viewingTeam?.name || null,
+        selectedBorough,
+        searchQuery: searchQuery || null
+      });
+    }
+    
+    // If viewing a specific team, filter to only show sites with that team
+    if (viewingTeam) {
+      // Normalize team name comparison (case-insensitive, trim whitespace)
+      const normalizedTeamName = viewingTeam.name.trim().toLowerCase();
+      result = result.filter(s => {
+        const hasTeam = s.teams.some(t => t.name.trim().toLowerCase() === normalizedTeamName);
+        return hasTeam;
+      });
+      
+      // Debug: Log team filtering results
+      if (result.length === 0) {
+        console.warn(`Team filter "${viewingTeam.name}" found 0 sites. Checking team name variations...`);
+        const allTeamNames = new Set<string>();
+        processedSites.forEach(site => {
+          site.teams.forEach(team => {
+            allTeamNames.add(team.name);
+          });
+        });
+        const similarNames = Array.from(allTeamNames).filter(name => 
+          name.toLowerCase().includes(normalizedTeamName) || 
+          normalizedTeamName.includes(name.toLowerCase())
+        );
+        if (similarNames.length > 0) {
+          console.log('Similar team names found:', similarNames);
+        }
+      } else {
+        console.log(`Team filter "${viewingTeam.name}" found ${result.length} site(s):`, result.map(s => s.name));
+      }
+    }
+    
     if (selectedBorough) {
       // Normalize borough comparison (case-insensitive, trim whitespace)
       const normalizedSelected = selectedBorough.toUpperCase().trim();
@@ -283,8 +325,12 @@ const App: React.FC = () => {
         s.teams.some(t => t.name.toLowerCase().includes(q))
       );
     }
+    
+    // Debug: Log final result
+    console.log(`✅ Filtered to ${result.length} site(s)`);
+    
     return result;
-  }, [searchQuery, processedSites, selectedBorough]);
+  }, [searchQuery, processedSites, selectedBorough, viewingTeam]);
 
   const allUniqueTeams = useMemo(() => {
     const teamsMap = new Map<string, { name: string, category: ServiceCategory, count: number }>();
@@ -356,8 +402,36 @@ const App: React.FC = () => {
               <h1 className="text-sm font-black tracking-tight uppercase">ELFT Locator</h1>
             </div>
             <div className="bg-[#004a91] p-1 rounded-xl flex shadow-inner">
-              <button onClick={() => setViewMode('map')} className={`px-5 py-2 rounded-lg text-[10px] font-black transition-all ${viewMode === 'map' ? 'bg-[#005eb8] shadow-lg' : 'opacity-60'}`}>MAP</button>
-              <button onClick={() => setViewMode('list')} className={`px-5 py-2 rounded-lg text-[10px] font-black transition-all ${viewMode === 'list' ? 'bg-[#005eb8] shadow-lg' : 'opacity-60'}`}>LIST</button>
+              <button 
+                onClick={() => {
+                  // If viewing a team profile, switch to map but keep team context
+                  if (viewMode === 'team-profile' && viewingTeam) {
+                    setViewMode('map');
+                    // Keep viewingTeam state so filteredSites filters correctly
+                  } else {
+                    setViewMode('map');
+                  }
+                }} 
+                className={`px-5 py-2 rounded-lg text-[10px] font-black transition-all ${viewMode === 'map' ? 'bg-[#005eb8] shadow-lg' : 'opacity-60'}`}
+              >
+                MAP
+              </button>
+              <button 
+                onClick={() => {
+                  // If viewing a team profile, switch to list but keep team context
+                  if (viewMode === 'team-profile' && viewingTeam) {
+                    setViewMode('team-profile');
+                    // Already on team-profile which shows list view
+                  } else if (viewMode === 'map' && viewingTeam) {
+                    setViewMode('team-profile');
+                  } else {
+                    setViewMode('list');
+                  }
+                }} 
+                className={`px-5 py-2 rounded-lg text-[10px] font-black transition-all ${viewMode === 'list' || viewMode === 'team-profile' ? 'bg-[#005eb8] shadow-lg' : 'opacity-60'}`}
+              >
+                LIST
+              </button>
             </div>
           </div>
         </header>
@@ -381,13 +455,13 @@ const App: React.FC = () => {
                 <h1 className="text-4xl md:text-6xl font-black text-[#005eb8] tracking-tight leading-none">{t.title}</h1>
                 <p className="text-lg text-gray-400 font-bold">{t.strapline}</p>
               </div>
-              <SearchBar value={searchQuery} onChange={(v) => { setSearchQuery(v); if (v) setViewMode('list'); }} placeholder={t.searchPlaceholder} />
+              <SearchBar value={searchQuery} onChange={(v) => { setSearchQuery(v); if (v) { setViewMode('list'); setViewingTeam(null); setSelectedBorough(null); } }} placeholder={t.searchPlaceholder} />
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <button onClick={() => setViewMode('map')} className="p-6 bg-white rounded-3xl border border-gray-100 shadow-sm flex items-center gap-4 text-left hover:shadow-lg transition-all active:scale-95 group">
+                <button onClick={() => { setViewMode('map'); setViewingTeam(null); setSelectedBorough(null); }} className="p-6 bg-white rounded-3xl border border-gray-100 shadow-sm flex items-center gap-4 text-left hover:shadow-lg transition-all active:scale-95 group">
                   <div className="bg-blue-50 p-3 rounded-2xl group-hover:bg-[#005eb8] transition-colors"><MapIcon className="h-6 w-6 text-[#005eb8] group-hover:text-white" /></div>
                   <div><span className="font-black text-xl block leading-none mb-1">{t.mapView}</span><span className="text-[10px] text-gray-400 uppercase tracking-widest">Interactive Pins</span></div>
                 </button>
-                <button onClick={() => setViewMode('list')} className="p-6 bg-white rounded-3xl border border-gray-100 shadow-sm flex items-center gap-4 text-left hover:shadow-lg transition-all active:scale-95 group">
+                <button onClick={() => { setViewMode('list'); setViewingTeam(null); setSelectedBorough(null); }} className="p-6 bg-white rounded-3xl border border-gray-100 shadow-sm flex items-center gap-4 text-left hover:shadow-lg transition-all active:scale-95 group">
                   <div className="bg-blue-50 p-3 rounded-2xl group-hover:bg-[#005eb8] transition-colors"><ListIcon className="h-6 w-6 text-[#005eb8] group-hover:text-white" /></div>
                   <div><span className="font-black text-xl block leading-none mb-1">{t.allSites}</span><span className="text-[10px] text-gray-400 uppercase tracking-widest">Site Directory</span></div>
                 </button>
@@ -406,7 +480,7 @@ const App: React.FC = () => {
         ) : viewMode === 'service-detail' && selectedTeam ? (
           <div className="flex-1 overflow-y-auto bg-white pb-24 scroll-smooth">
             <Breadcrumbs items={[
-              { label: 'Sites', onClick: () => setViewMode('list') },
+              { label: 'Sites', onClick: () => { setViewMode('list'); setViewingTeam(null); setSelectedBorough(null); } },
               { label: selectedTeam.site.name, onClick: () => { setSelectedSite(selectedTeam.site); setViewMode('site-profile'); } },
               { label: selectedTeam.team.name }
             ]} />
@@ -464,7 +538,7 @@ const App: React.FC = () => {
                       <Globe className="h-5 w-5" /> {t.viewOfficialPage}
                     </a>
                   )}
-                  <a href={`https://www.google.com/maps/dir/?api=1&destination=${selectedTeam.site.latitude},${selectedTeam.site.longitude}`} target="_blank" className="bg-[#005eb8] text-white py-5 rounded-2xl font-black text-center flex items-center justify-center gap-3 shadow-xl hover:shadow-[#005eb8]/30 transition-all">
+                  <a href={`https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(selectedTeam.site.postcode ? `${selectedTeam.site.name}, ${selectedTeam.site.address}, ${selectedTeam.site.postcode}` : `${selectedTeam.site.name}, ${selectedTeam.site.address}`)}`} target="_blank" className="bg-[#005eb8] text-white py-5 rounded-2xl font-black text-center flex items-center justify-center gap-3 shadow-xl hover:shadow-[#005eb8]/30 transition-all">
                     <Navigation className="h-5 w-5" /> {t.getDirections}
                   </a>
                 </div>
@@ -499,7 +573,7 @@ const App: React.FC = () => {
                 <p className="text-gray-400 font-bold mt-2 uppercase tracking-widest text-xs">{t.locationsProvidingThis}</p>
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                {sites.filter(s => s.teams.some(t => t.name === viewingTeam.name)).map(site => (
+                {filteredSites.map(site => (
                   <SiteCard key={site.id} site={site} onClick={() => { setSelectedSite(site); setViewMode('site-profile'); }} onTeamClick={(team) => { setSelectedTeam({team, site}); setViewMode('service-detail'); }} />
                 ))}
               </div>
@@ -507,7 +581,7 @@ const App: React.FC = () => {
           </div>
         ) : viewMode === 'site-profile' && selectedSite ? (
            <div className="flex-1 overflow-y-auto bg-white pb-24 scroll-smooth">
-            <Breadcrumbs items={[{ label: 'Sites', onClick: () => setViewMode('list') }, { label: selectedSite.name }]} />
+            <Breadcrumbs items={[{ label: 'Sites', onClick: () => { setViewMode('list'); setViewingTeam(null); setSelectedBorough(null); } }, { label: selectedSite.name }]} />
             <div className="p-6 md:p-12 max-w-6xl mx-auto space-y-12">
               <div className="border-b border-gray-50 pb-10">
                 <div className="flex justify-between items-start mb-6">
@@ -545,7 +619,7 @@ const App: React.FC = () => {
                         </div>
                       )}
                     </div>
-                    <a href={`https://www.google.com/maps/dir/?api=1&destination=${selectedSite.latitude},${selectedSite.longitude}`} target="_blank" className="bg-[#005eb8] text-white py-5 rounded-2xl font-black text-center flex items-center justify-center gap-3 shadow-xl hover:shadow-[#005eb8]/30 transition-all text-sm tracking-widest">
+                    <a href={`https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(selectedSite.postcode ? `${selectedSite.name}, ${selectedSite.address}, ${selectedSite.postcode}` : `${selectedSite.name}, ${selectedSite.address}`)}`} target="_blank" className="bg-[#005eb8] text-white py-5 rounded-2xl font-black text-center flex items-center justify-center gap-3 shadow-xl hover:shadow-[#005eb8]/30 transition-all text-sm tracking-widest">
                       <Navigation className="h-5 w-5"/> {t.getDirections}
                     </a>
                   </div>
@@ -576,7 +650,7 @@ const App: React.FC = () => {
               </div>
               <div className="flex gap-2 overflow-x-auto no-scrollbar px-4 pb-4">
                 <button 
-                  onClick={() => setSelectedBorough(null)}
+                  onClick={() => { setSelectedBorough(null); setViewingTeam(null); }}
                   className={`px-4 py-2 rounded-xl text-[10px] font-black whitespace-nowrap transition-all border flex items-center gap-2 ${!selectedBorough ? 'bg-[#005eb8] text-white border-[#005eb8]' : 'bg-gray-50 text-gray-400 border-gray-100'}`}
                 >
                   <Filter className="h-3 w-3" /> ALL BOROUGHS
@@ -590,6 +664,27 @@ const App: React.FC = () => {
             </div>
             {viewMode === 'map' ? (
               <div className="flex-1 relative">
+                {viewingTeam && (
+                  <div className="absolute top-4 left-4 z-[100] bg-white rounded-2xl shadow-xl border-2 border-[#005eb8] px-4 py-3 max-w-md">
+                    <div className="flex items-center gap-3">
+                      <span className={`text-[9px] font-black uppercase px-2 py-1 rounded-full border shrink-0 ${getCategoryColor(viewingTeam.category, false)}`}>
+                        {viewingTeam.category}
+                      </span>
+                      <div className="flex-1 min-w-0">
+                        <p className="text-[10px] font-black text-gray-400 uppercase tracking-widest">VIEWING TEAM</p>
+                        <p className="text-sm font-black text-[#005eb8] leading-tight truncate">{viewingTeam.name}</p>
+                        <p className="text-[10px] text-gray-500 mt-1">{filteredSites.length} location{filteredSites.length !== 1 ? 's' : ''}</p>
+                      </div>
+                      <button 
+                        onClick={() => { setViewingTeam(null); }}
+                        className="text-gray-400 hover:text-[#005eb8] transition-colors shrink-0"
+                        aria-label="Clear team filter"
+                      >
+                        <ChevronLeft className="h-4 w-4" />
+                      </button>
+                    </div>
+                  </div>
+                )}
                 <MapView sites={filteredSites} onSiteClick={(s) => { setSelectedSite(s); setViewMode('site-profile'); }} />
                 <button 
                   onClick={() => { if(userLocation) setViewMode('map'); }}

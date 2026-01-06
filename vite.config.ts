@@ -25,10 +25,8 @@ export default defineConfig(({ mode }) => {
           }
         }
       ],
-      define: {
-        'process.env.API_KEY': JSON.stringify(env.GEMINI_API_KEY),
-        'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY)
-      },
+      // Removed unused GEMINI_API_KEY references for security
+      // If needed in future, add back with proper environment variable handling
       resolve: {
         alias: {
           '@': path.resolve(__dirname, '.'),
