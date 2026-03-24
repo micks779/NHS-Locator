@@ -33,7 +33,22 @@ import MapView from './components/MapView';
 const SUPABASE_URL = import.meta.env.VITE_SUPABASE_URL || 'https://hqvfjrlmxjoiohrjtbzf.supabase.co';
 const SUPABASE_ANON_KEY = import.meta.env.VITE_SUPABASE_ANON_KEY || 'YOUR_ANON_KEY_HERE'; 
 
-const BOROUGHS = ['NEWHAM', 'TOWER HAMLETS', 'CITY & HACKNEY', 'BEDFORD', 'BEDFORDSHIRE', 'LUTON'];
+const BOROUGH_ORDER = ['NEWHAM', 'TOWER HAMLETS', 'CITY & HACKNEY', 'BEDFORDSHIRE', 'LUTON', 'LONDON', 'OTHER'];
+const BOROUGH_ALIAS_MAP: Record<string, string> = {
+  'CH NEWHAM': 'NEWHAM',
+  'NEW HAM': 'NEWHAM',
+  HACKNEY: 'CITY & HACKNEY',
+  'CITY AND HACKNEY': 'CITY & HACKNEY',
+  'CENTRAL BEDFORDSHIRE': 'BEDFORDSHIRE',
+  BEDFORD: 'BEDFORDSHIRE',
+};
+const normalizeBorough = (borough: string | null | undefined): Site['borough'] => {
+  const raw = (borough || 'LONDON').toString().toUpperCase().trim();
+  const normalized = BOROUGH_ALIAS_MAP[raw] || raw;
+  const allowed: Site['borough'][] = ['TOWER HAMLETS', 'NEWHAM', 'CITY & HACKNEY', 'BEDFORDSHIRE', 'LUTON', 'LONDON', 'BEDFORD', 'OTHER'];
+  return (allowed.includes(normalized as Site['borough']) ? normalized : 'OTHER') as Site['borough'];
+};
+type SiteProfileReturnView = 'map' | 'list' | 'team-profile';
 
 const App: React.FC = () => {
   const [viewMode, setViewMode] = useState<ViewMode>('home');
@@ -47,6 +62,7 @@ const App: React.FC = () => {
   const [sites, setSites] = useState<Site[]>([]);
   const [error, setError] = useState<string | null>(null);
   const [userLocation, setUserLocation] = useState<{lat: number, lng: number} | null>(null);
+  const [siteProfileReturnView, setSiteProfileReturnView] = useState<SiteProfileReturnView>('list');
   
   const t = TRANSLATIONS[language];
 
@@ -173,7 +189,7 @@ const App: React.FC = () => {
           }
           
           // Normalize borough value (uppercase, trim)
-          const normalizedBorough = (s.borough || 'LONDON').toString().toUpperCase().trim();
+          const normalizedBorough = normalizeBorough(s.borough);
           
           // Log if no teams found for debugging
           if (teams.length === 0 && rawData.length > 0) {
@@ -187,7 +203,7 @@ const App: React.FC = () => {
             latitude: s.latitude || 51.52,
             longitude: s.longitude || 0.03,
             receptionPhone: s.reception_phone || '020 7655 4000',
-            borough: normalizedBorough as any,
+            borough: normalizedBorough,
             hasStepFreeAccess: s.has_step_free_access,
             hasParking: s.has_parking,
             teams: teams
@@ -301,9 +317,9 @@ const App: React.FC = () => {
     
     if (selectedBorough) {
       // Normalize borough comparison (case-insensitive, trim whitespace)
-      const normalizedSelected = selectedBorough.toUpperCase().trim();
+      const normalizedSelected = normalizeBorough(selectedBorough);
       result = result.filter(s => {
-        const normalizedSiteBorough = (s.borough || '').toUpperCase().trim();
+        const normalizedSiteBorough = normalizeBorough(s.borough);
         return normalizedSiteBorough === normalizedSelected;
       });
       
@@ -344,6 +360,25 @@ const App: React.FC = () => {
     return Array.from(teamsMap.values()).sort((a, b) => a.name.localeCompare(b.name));
   }, [sites]);
 
+  const availableBoroughs = useMemo(() => {
+    const counts = new Map<string, number>();
+    sites.forEach((site) => {
+      const b = normalizeBorough(site.borough);
+      counts.set(b, (counts.get(b) || 0) + 1);
+    });
+
+    const ordered = BOROUGH_ORDER.filter((b) => counts.has(b)).map((b) => ({
+      borough: b,
+      count: counts.get(b) || 0,
+    }));
+    const extras = Array.from(counts.entries())
+      .filter(([b]) => !BOROUGH_ORDER.includes(b))
+      .map(([borough, count]) => ({ borough, count }))
+      .sort((a, b) => a.borough.localeCompare(b.borough));
+
+    return [...ordered, ...extras];
+  }, [sites]);
+
   const handleShare = (title: string, text: string) => {
     if (navigator.share) {
       navigator.share({ title, text, url: window.location.origin }).catch(console.warn);
@@ -363,9 +398,40 @@ const App: React.FC = () => {
     window.scrollTo(0, 0);
   };
 
+  const openSiteProfile = (site: Site, returnView: SiteProfileReturnView) => {
+    setSelectedSite(site);
+    setSiteProfileReturnView(returnView);
+    setViewMode('site-profile');
+    window.scrollTo(0, 0);
+  };
+
+  const returnFromSiteProfile = () => {
+    setSelectedSite(null);
+    if (siteProfileReturnView === 'map') {
+      setViewMode('map');
+    } else if (siteProfileReturnView === 'team-profile' && viewingTeam) {
+      setViewMode('team-profile');
+    } else {
+      setViewMode('list');
+      setViewingTeam(null);
+      setSelectedBorough(null);
+    }
+    window.scrollTo(0, 0);
+  };
+
+  const handleContextHome = () => {
+    if (viewMode === 'site-profile' && siteProfileReturnView === 'map') {
+      setSelectedSite(null);
+      setViewMode('map');
+      window.scrollTo(0, 0);
+      return;
+    }
+    navigateToView('home');
+  };
+
   const Breadcrumbs = ({ items }: { items: { label: string; onClick?: () => void }[] }) => (
     <div className="flex items-center gap-2 overflow-x-auto no-scrollbar py-3 px-6 bg-white border-b safe-area-top sticky top-0 z-[60] shadow-sm">
-      <button onClick={() => navigateToView('home')} className="text-[#005eb8] hover:underline font-black text-[10px] uppercase tracking-widest flex items-center gap-1 shrink-0">
+      <button onClick={handleContextHome} className="text-[#005eb8] hover:underline font-black text-[10px] uppercase tracking-widest flex items-center gap-1 shrink-0">
         <ArrowLeft className="h-3 w-3" /> {t.backHome}
       </button>
       {items.map((item, i) => (
@@ -574,14 +640,14 @@ const App: React.FC = () => {
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {filteredSites.map(site => (
-                  <SiteCard key={site.id} site={site} onClick={() => { setSelectedSite(site); setViewMode('site-profile'); }} onTeamClick={(team) => { setSelectedTeam({team, site}); setViewMode('service-detail'); }} />
+                  <SiteCard key={site.id} site={site} onClick={() => openSiteProfile(site, 'team-profile')} onTeamClick={(team) => { setSelectedTeam({team, site}); setViewMode('service-detail'); }} />
                 ))}
               </div>
             </div>
           </div>
         ) : viewMode === 'site-profile' && selectedSite ? (
            <div className="flex-1 overflow-y-auto bg-white pb-24 scroll-smooth">
-            <Breadcrumbs items={[{ label: 'Sites', onClick: () => { setViewMode('list'); setViewingTeam(null); setSelectedBorough(null); } }, { label: selectedSite.name }]} />
+            <Breadcrumbs items={[{ label: 'Sites', onClick: returnFromSiteProfile }, { label: selectedSite.name }]} />
             <div className="p-6 md:p-12 max-w-6xl mx-auto space-y-12">
               <div className="border-b border-gray-50 pb-10">
                 <div className="flex justify-between items-start mb-6">
@@ -653,11 +719,11 @@ const App: React.FC = () => {
                   onClick={() => { setSelectedBorough(null); setViewingTeam(null); }}
                   className={`px-4 py-2 rounded-xl text-[10px] font-black whitespace-nowrap transition-all border flex items-center gap-2 ${!selectedBorough ? 'bg-[#005eb8] text-white border-[#005eb8]' : 'bg-gray-50 text-gray-400 border-gray-100'}`}
                 >
-                  <Filter className="h-3 w-3" /> ALL BOROUGHS
+                  <Filter className="h-3 w-3" /> ALL SITES
                 </button>
-                {BOROUGHS.map(b => (
-                  <button key={b} onClick={() => setSelectedBorough(b === selectedBorough ? null : b)} className={`px-4 py-2 rounded-xl text-[10px] font-black whitespace-nowrap transition-all border ${selectedBorough === b ? 'bg-[#005eb8] text-white border-[#005eb8]' : 'bg-gray-50 text-gray-400 border-gray-100'}`}>
-                    {b}
+                {availableBoroughs.map(({ borough, count }) => (
+                  <button key={borough} onClick={() => setSelectedBorough(borough === selectedBorough ? null : borough)} className={`px-4 py-2 rounded-xl text-[10px] font-black whitespace-nowrap transition-all border ${selectedBorough === borough ? 'bg-[#005eb8] text-white border-[#005eb8]' : 'bg-gray-50 text-gray-400 border-gray-100'}`}>
+                    {borough} <span className={`${selectedBorough === borough ? 'text-white/90' : 'text-gray-400'}`}>({count})</span>
                   </button>
                 ))}
               </div>
@@ -685,7 +751,7 @@ const App: React.FC = () => {
                     </div>
                   </div>
                 )}
-                <MapView sites={filteredSites} onSiteClick={(s) => { setSelectedSite(s); setViewMode('site-profile'); }} />
+                <MapView sites={filteredSites} onSiteClick={(s) => openSiteProfile(s, 'map')} />
                 <button 
                   onClick={() => { if(userLocation) setViewMode('map'); }}
                   className="absolute bottom-24 right-4 bg-white p-5 rounded-3xl shadow-2xl border-4 border-blue-50 active:scale-90 transition-all z-[100] group"
@@ -695,15 +761,17 @@ const App: React.FC = () => {
                 </button>
               </div>
             ) : (
-              <div className="flex-1 overflow-y-auto p-4 pb-24 grid grid-cols-1 md:grid-cols-2 gap-4 scroll-smooth">
+              <div className="flex-1 overflow-y-auto p-4 pb-24 scroll-smooth">
                 {filteredSites.length > 0 ? (
-                  filteredSites.map(site => (
-                    <SiteCard key={site.id} site={site} onClick={() => { setSelectedSite(site); setViewMode('site-profile'); }} onTeamClick={(team, s) => { setSelectedTeam({team, site: s}); setViewMode('service-detail'); }} searchQuery={searchQuery} />
-                  ))
+                  <div className="max-w-4xl mx-auto w-full space-y-4">
+                    {filteredSites.map(site => (
+                      <SiteCard key={site.id} site={site} onClick={() => openSiteProfile(site, 'list')} onTeamClick={(team, s) => { setSelectedTeam({team, site: s}); setViewMode('service-detail'); }} searchQuery={searchQuery} />
+                    ))}
+                  </div>
                 ) : (
                   <div className="col-span-full py-20 text-center">
                     <div className="bg-gray-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4"><Search className="text-gray-300 h-8 w-8" /></div>
-                    <p className="font-black text-gray-400 uppercase tracking-widest text-xs">No matching results in {selectedBorough || 'Trust'}</p>
+                    <p className="font-black text-gray-400 uppercase tracking-widest text-xs">No matching results in {selectedBorough || 'All Sites'}</p>
                   </div>
                 )}
               </div>
@@ -713,7 +781,7 @@ const App: React.FC = () => {
       </main>
 
       {viewMode !== 'home' && (
-        <button onClick={() => navigateToView('home')} className="fixed bottom-8 left-1/2 -translate-x-1/2 bg-[#005eb8] text-white px-8 py-5 rounded-full shadow-2xl active:scale-90 transition-all z-[100] flex items-center gap-3 border-4 border-white font-black text-xs tracking-[0.2em] shadow-[#005eb8]/40">
+        <button onClick={handleContextHome} className="fixed bottom-8 left-1/2 -translate-x-1/2 bg-[#005eb8] text-white px-8 py-5 rounded-full shadow-2xl active:scale-90 transition-all z-[100] flex items-center gap-3 border-4 border-white font-black text-xs tracking-[0.2em] shadow-[#005eb8]/40">
           <ChevronLeft className="h-5 w-5"/> HOME
         </button>
       )}

@@ -1,7 +1,8 @@
 
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useMemo, useRef } from 'react';
 import L from 'leaflet';
 import { Site } from '../types';
+import { buildMapLegend, getSiteMapStyle } from '../mapColors';
 
 interface MapViewProps {
   sites: Site[];
@@ -13,6 +14,8 @@ const MapView: React.FC<MapViewProps> = ({ sites, selectedSiteId, onSiteClick })
   const mapRef = useRef<L.Map | null>(null);
   const containerRef = useRef<HTMLDivElement>(null);
   const markersRef = useRef<{ [key: string]: L.Marker }>({});
+
+  const legendRows = useMemo(() => buildMapLegend(sites), [sites]);
 
   useEffect(() => {
     if (!containerRef.current || mapRef.current) return;
@@ -42,9 +45,11 @@ const MapView: React.FC<MapViewProps> = ({ sites, selectedSiteId, onSiteClick })
     const bounds = L.latLngBounds([]);
 
     sites.forEach(site => {
+      const mapStyle = getSiteMapStyle(site);
+      const { color } = mapStyle;
       const customIcon = L.divIcon({
         className: 'custom-div-icon',
-        html: `<div class="w-8 h-8 rounded-full border-2 border-white flex items-center justify-center shadow-lg transition-transform duration-200 hover:scale-125" style="background-color: #005eb8">
+        html: `<div class="w-8 h-8 rounded-full border-2 border-white flex items-center justify-center shadow-lg transition-transform duration-200 hover:scale-125" style="background-color: ${color}">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
                </div>`,
         iconSize: [32, 32],
@@ -62,10 +67,10 @@ const MapView: React.FC<MapViewProps> = ({ sites, selectedSiteId, onSiteClick })
         .addTo(mapRef.current!)
         .on('click', () => onSiteClick(site))
         .bindTooltip(
-          `<div style="font-family: system-ui, -apple-system, sans-serif; padding: 8px 12px; font-weight: 700; font-size: 13px; color: #005eb8; text-align: center; white-space: nowrap;">
+          `<div style="font-family: system-ui, -apple-system, sans-serif; padding: 8px 12px; font-weight: 700; font-size: 13px; color: ${color}; text-align: center; white-space: nowrap;">
             ${escapeHtml(site.name)}
             <div style="font-size: 10px; color: #6b7280; font-weight: 600; margin-top: 2px; text-transform: uppercase; letter-spacing: 0.05em;">
-              ${escapeHtml(site.borough)}
+              ${escapeHtml(mapStyle.label)} · ${escapeHtml(site.borough)}
             </div>
           </div>`,
           {
@@ -99,7 +104,32 @@ const MapView: React.FC<MapViewProps> = ({ sites, selectedSiteId, onSiteClick })
     }
   }, [selectedSiteId]);
 
-  return <div ref={containerRef} className="w-full h-full rounded-b-xl md:rounded-xl shadow-inner border border-gray-200" />;
+  return (
+    <div className="relative w-full h-full rounded-b-xl md:rounded-xl shadow-inner border border-gray-200">
+      <div ref={containerRef} className="w-full h-full rounded-b-xl md:rounded-xl" />
+      {legendRows.length > 0 && (
+        <div
+          className="absolute bottom-24 left-3 z-[500] max-w-[min(92vw,220px)] rounded-xl border border-gray-200/80 bg-white/95 p-3 shadow-lg backdrop-blur-sm md:bottom-6 md:left-4"
+          role="region"
+          aria-label="Map colour key"
+        >
+          <p className="mb-2 text-[9px] font-black uppercase tracking-widest text-gray-500">Key</p>
+          <ul className="max-h-[40vh] space-y-1.5 overflow-y-auto pr-1 text-left">
+            {legendRows.map((row) => (
+              <li key={row.legendKey} className="flex items-center gap-2 text-[10px] font-bold leading-tight text-gray-800">
+                <span
+                  className="h-3 w-3 shrink-0 rounded-full border border-white shadow ring-1 ring-black/10"
+                  style={{ backgroundColor: row.color }}
+                />
+                <span className="min-w-0 flex-1">{row.label}</span>
+                <span className="shrink-0 text-gray-400 tabular-nums">{row.count}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+    </div>
+  );
 };
 
 export default MapView;

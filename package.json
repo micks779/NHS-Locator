@@ -6,14 +6,23 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "data:csv": "node csv_to_enriched.cjs",
+    "data:xlsx": "node xlsx_to_enriched.cjs",
+    "data:xlsx:external": "node xlsx_to_external.cjs",
+    "data:boundaries": "node fetch_boundaries.cjs",
+    "data:import": "node supabase_import.cjs",
+    "data:import:external": "node supabase_import_external.cjs",
+    "data:pull": "node supabase_export.cjs"
   },
   "dependencies": {
+    "@google/genai": "^1.30.0",
+    "@supabase/supabase-js": "^2.99.3",
+    "leaflet": "^1.9.4",
+    "lucide-react": "^0.555.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
-    "lucide-react": "^0.555.0",
-    "leaflet": "^1.9.4",
-    "@google/genai": "^1.30.0"
+    "xlsx": "^0.18.5"
   },
   "devDependencies": {
     "@types/node": "^22.14.0",

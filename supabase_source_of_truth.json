@@ -1,0 +1,5086 @@
+[
+  {
+    "id": "f5f7e105-8bdf-4662-958e-bddcb9019482",
+    "name": "102-110 Mare Street",
+    "address": "London, E8 3SG, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "030074a2-d5b3-40ea-a6a2-8cc781f64a68",
+        "name": "City & Hackney Integrated Mental Health and Substance Use Service",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/city-hackney-integrated-mental-health-and-substance-use-service",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "999920c8-81d1-4da6-b0d7-7091788e9f05",
+    "name": "103 First Avenue",
+    "address": "Plaistow, London , E13 9AP, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "35f7bc46-03dd-4a99-9f48-8141cd56ed69",
+        "name": "Diagnostic Memory Clinic (Newham)",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/diagnostic-memory-clinic-newham",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "0fc5c630-8226-4829-9b28-0d7127c28cad",
+    "name": "115 Balaam Street,",
+    "address": "Plaistow,, London, E13 8AF, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "b1f0b9d5-4e5b-4882-bcc1-fb6810fda98f",
+        "name": "Clozapine Clinic (Newham)",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/clozapine-clinic-newham",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "be2539ed-7953-45f6-a267-3f24f584df68",
+    "name": "117 Balaam Street",
+    "address": "London , E13 8AF, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "57cf1b41-d9a5-4f4a-b0a7-b5b654bd0476",
+        "name": "Community Integrated Mental Health Team (South)",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/community-integrated-mental-health-team-south",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "ef1e6bec-8eac-4943-ab9f-fd9745f274c8",
+    "name": "12 kenworthy Road",
+    "address": "London, E9 5TD, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "4be9b08c-b60a-418a-9dd8-e1f7544bc5b3",
+        "name": "Limehouse Ward",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/limehouse-ward",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "88d2850c-65d1-4e3e-b366-021b079c63a1",
+    "name": "12 Kenworthy Road",
+    "address": "London, E9 5TD, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "a6cdc9e0-9359-4253-91be-1238e848eb36",
+        "name": "Aldgate Ward",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/aldgate-ward",
+        "phone": ""
+      },
+      {
+        "id": "876e9e2d-4b2a-4dc9-8376-cc258118568a",
+        "name": "Bow Ward",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/bow-ward",
+        "phone": ""
+      },
+      {
+        "id": "67cc4258-15e2-4add-980a-9d7355aefcea",
+        "name": "Broadgate Ward",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/broadgate-ward",
+        "phone": ""
+      },
+      {
+        "id": "e9329194-2d07-41e8-9260-e0df757dd7c8",
+        "name": "John Howard Centre",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/john-howard-centre",
+        "phone": ""
+      },
+      {
+        "id": "cbea342b-cee0-42da-8f0b-8f50960b5421",
+        "name": "Morrison Ward",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/morrison-ward",
+        "phone": ""
+      },
+      {
+        "id": "c67377f7-b575-4448-b234-cb664a3e319d",
+        "name": "Shoreditch Ward",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/shoreditch-ward",
+        "phone": ""
+      },
+      {
+        "id": "1a7424d1-f783-4b25-9637-35f3b6a97af1",
+        "name": "Stratford Ward",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/stratford-ward",
+        "phone": ""
+      },
+      {
+        "id": "f15b76bf-ffbb-4649-a99d-121fda70eb5e",
+        "name": "Westferry Ward",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/westferry-ward",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "04747579-0cdc-4978-84b7-280517da9a05",
+    "name": "12 Kenworthy Road,",
+    "address": "London, E9 5TD, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "a045ac35-4263-40d8-9d1e-1768c32fd99f",
+        "name": "Victoria Ward",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/victoria-ward",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "45e7526d-0ebc-49e9-a9f9-f30f849e47d5",
+    "name": "18 Greatorex Street",
+    "address": "Whitechapel, London, E1 5NF, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "63cbe801-8f68-47a5-922e-ba1df66be2cf",
+        "name": "CAMHS Tower Hamlets",
+        "category": "Children",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/camhs-tower-hamlets",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "bfb6cf82-a2b5-4d32-b3c4-feff5b79c5a3",
+    "name": "19 Tudor Road",
+    "address": "Hackney , London, E9 7SN, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "05933714-7036-4938-83a8-1820ae9e2a20",
+        "name": "The Greenhouse Practice",
+        "category": "Primary Care",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/greenhouse-practice",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "d885dbde-62c1-43a9-bb53-36d3f7610011",
+    "name": "1st floor Beaumont House, Mile End Hospital",
+    "address": "275 Bancroft Road, London , E1 4DG, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "47c8edc0-5c5e-4501-8a97-182136ebdde5",
+        "name": "Blood Borne Virus Team",
+        "category": "Community Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/blood-borne-virus-team",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "2a50305b-33e5-4e93-acdd-91082e342a71",
+    "name": "1st Floor Burdett House",
+    "address": "Mile End Hospital, London, E1 4DG, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "e584574b-5923-4e51-b2a2-60c518062291",
+        "name": "Crisis Therapy Service (Tower Hamlets)",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/crisis-therapy-service-tower-hamlets",
+        "phone": ""
+      },
+      {
+        "id": "41182a7b-ac0e-4b79-81dd-d7ed34fe4240",
+        "name": "Tower Hamlets Psychological Treatment",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/tower-hamlets-psychological-treatment",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "47b4622c-3a3e-45bb-b09d-88bd492e0dc8",
+    "name": "1st Floor Burdett House , Mile End Hospital",
+    "address": "275 Bancroft Road, London, E1 4DG, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "731cc564-59bf-48d1-97e6-e4de44a057a6",
+        "name": "DeanCross Personality Disorder Service",
+        "category": "Corporate",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/deancross-personality-disorder-service",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "f407586d-d3ad-4a48-aeed-831d4af9423b",
+    "name": "2 The Bungalows",
+    "address": "Beech Close, Dunstable, LU6 3SD, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "e4bb83c1-ab08-483e-bd1e-c6a187442cd3",
+        "name": "Bedfordshire Older People’s Crisis Resolution Home Treatment Team (CRHT)",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/bedfordshire-older-peoples-crisis-resolution-home-treatment-team-crht",
+        "phone": ""
+      },
+      {
+        "id": "fc2db567-8d9b-4c69-bbc7-894ccf487624",
+        "name": "Luton Older People's CMHT",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/luton-older-peoples-cmht",
+        "phone": ""
+      },
+      {
+        "id": "9aba6a81-8f37-4922-803f-4435180e5503",
+        "name": "South Bedfordshire Older Peoples CMHT",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/south-bedfordshire-older-peoples-cmht",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "70902dad-b1dd-4d48-9f0f-0c22a6eb234a",
+    "name": "21 Newby Place Health Centre",
+    "address": "London, E14 0EY, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "4685d990-7f14-4b26-8bf6-bb3ee96270d9",
+        "name": "Continuing Healthcare Team - Tower Hamlets",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/continuing-healthcare-team-tower-hamlets",
+        "phone": ""
+      },
+      {
+        "id": "4b6e5846-bfc0-4713-ac5e-8034c8c72503",
+        "name": "Tower Hamlets Continuing Health Care Service",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/tower-hamlets-continuing-health-care-service",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "901492c8-59c4-416a-a22a-f6f4f272e306",
+    "name": "21 The Crescent",
+    "address": "Bedford, Bedfordshire, MK40 2RT, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "9e2bdc81-52c7-41e0-b54f-c440b201b5a9",
+        "name": "Path 2 Recovery (P2R) Bedford Borough",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/path-2-recovery-p2r-bedford-borough",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "b2c2b4bb-5f63-4132-938c-9e0bfd331243",
+    "name": "23 Primrose Square",
+    "address": "Hackney, London, E9 7TS, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "7e40ea06-87b6-4461-988e-deba362e7c81",
+        "name": "City & Hackney Recovery College",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/city-hackney-recovery-college",
+        "phone": ""
+      },
+      {
+        "id": "fa4ed025-1999-46c2-bd4f-b8437e219c62",
+        "name": "Personal Health Budgets",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/personal-health-budgets",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "0fb903a9-66c7-44e7-97c8-9d5a075abb9a",
+    "name": "23, Primrose Square",
+    "address": "London, E9 7TS, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "85de6014-781f-4821-b34a-e66a961fcd58",
+        "name": "City and Hackney Rehabilitation and Recovery Service",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/city-and-hackney-rehabilitation-and-recovery-service",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "bd8b8028-fba9-4104-a573-179f630c71ce",
+    "name": "26 Shore Road",
+    "address": "Hackney , London, E9 7TA, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "e33ace60-22b9-4eda-b8f9-87bebce7b6e2",
+        "name": "East London Community Forensic Service",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/east-london-community-forensic-service",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "69e385ea-35c3-4cd4-ae76-73f235edbe69",
+    "name": "29 Romford Road",
+    "address": "London, E15 4LY, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "e5470ebc-64ac-426b-8a7d-cd4dc6dd60ef",
+        "name": "Newham Learning Disabilities Service",
+        "category": "Corporate",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/newham-learning-disabilities-service",
+        "phone": ""
+      },
+      {
+        "id": "40fb445c-b189-4584-963c-556af0491438",
+        "name": "Physiotherapy - Musculoskeletal Service (Newham)",
+        "category": "Community Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/physiotherapy-musculoskeletal-service-newham",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "dec0aba0-1f26-40ce-bb99-f33fc42e4351",
+    "name": "2nd Floor Caudwell Centre",
+    "address": "Bedford Hospital, South Wing , Bedford, MK42 9DJ, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "5c5183d1-297f-46e1-b7be-5b410f31b27e",
+        "name": "Diabetes Psychology Service - Bedfordshire & Luton",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/diabetes-psychology-service-bedfordshire-luton",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "f6a83cf5-8dbb-4c9e-af20-cf9a4a5ea262",
+    "name": "2nd floor, Grove Building, Mile End Hospital",
+    "address": "Bancroft Road, London , E1 4DG, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "ab4e4cd5-1c5e-413b-b0b5-4016e3da2ac5",
+        "name": "Continence Service (Tower Hamlets)",
+        "category": "Community Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/continence-service-tower-hamlets",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "1ff4a27c-401f-4eac-9702-a3a7f8f0655c",
+    "name": "30 Felstead Street",
+    "address": "Homerton, London, E9 5LG, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "f6fdc9f6-c944-4cad-99e8-1b1bd63833a2",
+        "name": "CMHT for Older People - City and Hackney",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/cmht-older-people-city-and-hackney",
+        "phone": ""
+      },
+      {
+        "id": "f03532b1-21d7-493e-953b-abfe8296dba1",
+        "name": "Diagnostic Memory Clinic (DMC) - City and Hackney",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/diagnostic-memory-clinic-dmc-city-and-hackney",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "2b7e75a1-8552-4b98-ab18-a04a3698cd93",
+    "name": "311-315 Green Lanes",
+    "address": "London, N4 2ES, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "34ad0e74-6d28-4691-b3c0-7e1b65b844bd",
+        "name": "Wolfson House",
+        "category": "Forensic",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/wolfson-house",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "bcd263b3-a092-4dfd-9b99-3d1933c64529",
+    "name": "385 Barking Road",
+    "address": "Plaistow, London, E13 8AL, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "7e59370d-1953-4e90-8783-6bb1a5ebb865",
+        "name": "CAMHS Dialectical Behaviour Therapy Service",
+        "category": "Children",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/camhs-dialectical-behaviour-therapy-service",
+        "phone": ""
+      },
+      {
+        "id": "f6ba714f-a081-4bd6-8a61-d91f1568d706",
+        "name": "East London CAMHS Intensive Community Care Service (ICCS)",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/east-london-camhs-intensive-community-care-service-iccs",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "693384a3-28e3-4395-b555-4c0333c14fa6",
+    "name": "385 Dunstable Road",
+    "address": "Luton, LU4 8BY, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "d5721cda-a675-4fb6-8b4f-3cfc40756580",
+        "name": "Kingsway and Bramingham Medical Centre (Luton)",
+        "category": "Primary Care",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/kingsway-and-bramingham-medical-centre-luton",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "e014f38c-30da-4a29-be50-7744c26bb79a",
+    "name": "3A Woburn Road",
+    "address": "Bedford, Bedfordshire, MK40 1EG, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "dd4d3556-0a1e-4fe2-af1f-02e2baa3a2e1",
+        "name": "DRC @ The Wellbeing Centre (Bedford)",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/drc-wellbeing-centre-bedford",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "53110e77-8e8d-4e42-a2be-c490f1bae60a",
+    "name": "4 The Bungalows",
+    "address": "Beech Close, Dunstable, LU6 3SD, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "3da1f7a0-2d64-40ee-9035-fa7dd797c2a5",
+        "name": "Bedfordshire Dementia Intensive Support Service (DISS)",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/bedfordshire-dementia-intensive-support-service-diss",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "a5e2df65-3613-43f3-af35-546ea0377c54",
+    "name": "409 High Street",
+    "address": "Stratford, London, E15 4QZ, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "2c32a869-8715-4ee7-8290-b2ff84bc2691",
+        "name": "Newham Secondary Care Psychological Services",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/newham-secondary-care-psychological-services-0",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "7883c822-679a-4ab7-af60-9699f933d7e9",
+    "name": "409 High Street,",
+    "address": "Stratford, , London , E15 4QZ, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "f30e11bc-8151-4616-b0b4-8320398934ff",
+        "name": "Personality Disorder Service (Newham)",
+        "category": "Corporate",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/personality-disorder-service-newham",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "2b4e78d5-9fca-45d9-b0ac-32e2001f6810",
+    "name": "51 Three Colts Lane",
+    "address": "Bethnal Green, London, E2 6BF, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "53c5f4eb-7b4a-48cc-a3c2-b815205e8b09",
+        "name": "Bethnal Green Neighbourhood Mental Health Team",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/bethnal-green-neighbourhood-mental-health-team",
+        "phone": ""
+      },
+      {
+        "id": "ad3deeb5-63d9-40a7-8b67-a042d2e3bf43",
+        "name": "Bow & Poplar Neighbourhood Mental Health Team",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/bow-poplar-neighbourhood-mental-health-team",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "71064edd-5481-4822-8914-1f84b2ff4843",
+    "name": "53-55 Barnsley Street",
+    "address": "London, E1 5RB, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "e49ce80f-7867-4440-bc22-b215ba9f7e4d",
+        "name": "Barnsley Street Neighbourhood Mental Health Centre",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/barnsley-street-neighbourhood-mental-health-centre",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "15fe0bd8-75d7-4392-80ff-579e3c0365a4",
+    "name": "71 Johnson Street",
+    "address": "London, E1 0AQ, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "f7e730a3-1474-4789-a8ca-b82a87bd2418",
+        "name": "Tower Hamlets Talking Therapies",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/tower-hamlets-talking-therapies",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "22d3e632-717c-4f74-a171-a1f7c156b47b",
+    "name": "84 West Ham Lane",
+    "address": "Stratford, London, E15 4PT, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "d2683499-7b52-4e5d-99ac-c1ff6b640ed1",
+        "name": "West Ham Lane Centre",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/west-ham-lane-centre",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "9164d10b-04d6-4f83-a390-4480dae39a85",
+    "name": "86 Old Montague Street",
+    "address": "London, E1 5NN, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "f384305f-8f23-486a-ac63-9b2426fcc907",
+        "name": "Adult Autism Service (Tower Hamlets)",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/adult-autism-service-tower-hamlets",
+        "phone": ""
+      },
+      {
+        "id": "4faec4f8-7b01-4797-ac0f-61a77ada169b",
+        "name": "Clozapine Clinic (Tower Hamlets)",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/clozapine-clinic-tower-hamlets",
+        "phone": ""
+      },
+      {
+        "id": "4a340386-3ece-4841-8016-3bf25f1dea63",
+        "name": "Enhanced Primary Care Service (Tower Hamlets)",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/enhanced-primary-care-service-tower-hamlets",
+        "phone": ""
+      },
+      {
+        "id": "fa999da4-76d2-469c-a748-44de9f5c820f",
+        "name": "Tower Hamlets Primary Care Mental Health Service",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/tower-hamlets-primary-care-mental-health-service",
+        "phone": ""
+      },
+      {
+        "id": "ac72aee4-72b6-4519-8602-f097e370b393",
+        "name": "Tower Hamlets Together Café",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/tower-hamlets-together-cafe",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "845ab175-bff7-46d1-a59e-cfdfbe1db441",
+    "name": "9 Rush Court",
+    "address": "Bedford, Bedfordshire, MK40 3JT, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "a064abd7-c61b-4857-8af9-1a38812c6083",
+        "name": "North Bedfordshire CAMHS",
+        "category": "Children",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/north-bedfordshire-camhs",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "ee87da4d-cec4-4295-adfb-66853311164d",
+    "name": "9-11 Brick Lane",
+    "address": "London, E1 6PU, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "a376ac33-533a-4806-9e07-8a373fac1ad7",
+        "name": "Health E1 Homeless Medical Centre",
+        "category": "Primary Care",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/health-e1-homeless-medical-centre",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "9fd49974-940f-464f-846a-b771af790b3a",
+    "name": "Admin Block B, Twinwoods Health Resource Centre",
+    "address": "Milton Road, Bedford, MK41 6AT, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "940b01f4-4e38-4717-95ad-fcdcb3882f38",
+        "name": "Bedford Warfarin Service",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/bedford-warfarin-service",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "9988ef52-0660-4ada-b486-1f694394085f",
+    "name": "Adult Mental Health Management Offices City and Hackney Centre for Mental Health",
+    "address": "Homerton Row , London, E9 6SR, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "427d1f33-ae71-45a1-9cfe-b760c5ab303f",
+        "name": "Adult Mental Health Management Offices (City & Hackney)",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/adult-mental-health-management-offices-city-hackney",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "16fa79df-3699-48b3-acf4-c5880abfecd0",
+    "name": "Appleby Health Centre",
+    "address": "Canning Town, London, E16 1LQ, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "cfaea029-00a8-4b99-9b2d-80ea351f7064",
+        "name": "Community Children's Nursing Service (Newham)",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/community-childrens-nursing-service-newham",
+        "phone": ""
+      },
+      {
+        "id": "d091ec84-405d-4243-affc-30806f3e1344",
+        "name": "Diana Children's Nursing Team",
+        "category": "Children",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/diana-childrens-nursing-team",
+        "phone": ""
+      },
+      {
+        "id": "893636ba-9b18-4935-b59c-7b21e02c9032",
+        "name": "Early Intervention Service (Newham)",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/early-intervention-service-newham",
+        "phone": ""
+      },
+      {
+        "id": "699f022d-5c4d-41a6-bcba-64d06af8a193",
+        "name": "Patient Appliance Service (Newham)",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/patient-appliance-service-newham",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "fa97b9e3-c86e-4c82-8119-aa8c0e98b75c",
+    "name": "Appleby Health Centre 63 Appleby Road, Canning Town",
+    "address": "London, E16 1LQ, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "5c1d1fe4-0fa5-4d60-b5f0-e05eae4bb1b4",
+        "name": "Phlebotomy (Blood Testing) Appleby Health Centre",
+        "category": "Community Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/phlebotomy-blood-testing-appleby-health-centre",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "cae8da86-f46d-4cd0-ba6b-c5b89066efd5",
+    "name": "Beaumont House",
+    "address": "Mile End Hospital , London , E1 4DG, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "7656b9fe-aa88-4157-9ef6-93098401fb22",
+        "name": "Admission Avoidance and Discharge Service (Tower Hamlets)",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/admission-avoidance-and-discharge-service-tower-hamlets",
+        "phone": ""
+      },
+      {
+        "id": "5cb062fc-cdd0-489e-b9a6-a28743adf814",
+        "name": "Advanced Care Planning Team (Tower Hamlets Community Health Services)",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/advanced-care-planning-team-tower-hamlets-community-health-services",
+        "phone": ""
+      },
+      {
+        "id": "96531239-43a8-40be-96aa-ea172fae1e88",
+        "name": "Care Navigator (Tower Hamlets Community Health Services)",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/care-navigator-tower-hamlets-community-health-services",
+        "phone": ""
+      },
+      {
+        "id": "ce25ee3f-e311-4191-af31-3993f21b172e",
+        "name": "Neighbourhood Care Team (Tower Hamlets)",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/neighbourhood-care-team-tower-hamlets",
+        "phone": ""
+      },
+      {
+        "id": "b1157633-9f8d-447d-91e8-d2687872e21d",
+        "name": "Tower Hamlets Community Health Services",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/tower-hamlets-community-health-services",
+        "phone": ""
+      },
+      {
+        "id": "0e4255b5-8e4f-410e-8c58-659dc2a4dd5a",
+        "name": "Tower Hamlets Community Learning Disabilities Service",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/tower-hamlets-community-learning-disabilities-service",
+        "phone": ""
+      },
+      {
+        "id": "62cebaf6-4c29-4230-b295-be1fba50581c",
+        "name": "Tower Hamlets Community Therapy Team",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/tower-hamlets-community-therapy-team",
+        "phone": ""
+      },
+      {
+        "id": "bfc26dbb-d9e3-4677-9bef-933be8a026dc",
+        "name": "Tower Hamlets Falls Pick-up Service",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/tower-hamlets-falls-pick-service",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "97644b41-0c3c-477e-be7b-7ad851e0f01c",
+    "name": "Bedford Health Village",
+    "address": "Kimbolton Road, Bedford, MK40 2NX, United Kingdom",
+    "latitude": 52.1444,
+    "longitude": -0.4601,
+    "receptionPhone": "020 7655 4000",
+    "borough": "BEDFORD",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "1406ec36-c835-4066-b56e-1d31763dc39f",
+        "name": "Bedford Adult Community Mental Health Team",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/bedford-adult-community-mental-health-team",
+        "phone": ""
+      },
+      {
+        "id": "826b260c-9067-4bf4-88ff-8b222eaaa822",
+        "name": "Bedford and Mid-Bedfordshire Crisis Team",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/bedford-and-mid-bedfordshire-crisis-team",
+        "phone": ""
+      },
+      {
+        "id": "1198c499-6775-4607-9029-2c547c0fa3b7",
+        "name": "Bedford DECAR Hub",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/bedford-DECAR-HUB",
+        "phone": ""
+      },
+      {
+        "id": "91971594-9558-425f-95f0-190074b3ae08",
+        "name": "Cedar House (Bedfordshire and Luton)",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/cedar-house-bedfordshire-and-luton",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "ca634392-2ec3-4a18-9cf4-c50e3402cd0c",
+    "name": "Bedford Hospital",
+    "address": "Ampthill Road, Bedford, MK42 9DJ, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "13845fee-b7ca-447c-b59d-748674439bf6",
+        "name": "Bedford Psychiatric Liaison Service",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/bedford-psychiatric-liaison-service",
+        "phone": ""
+      },
+      {
+        "id": "672aff79-f4fb-4655-a6a8-7fbaa5eaaf17",
+        "name": "Cauldwell Medical Centre (Bedford)",
+        "category": "Primary Care",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/cauldwell-medical-centre-bedford",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "13425b17-2bfe-441f-94bc-911bc158417f",
+    "name": "Bedford Wellbeing Centre",
+    "address": "3 Woburn Road, Bedford, MK40 1EG, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "c6647181-ff16-4df0-849d-4aa675d25fd0",
+        "name": "Bedfordshire and Luton Recovery College",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "East London NHS Foundation Trust",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/bedfordshire-and-luton-recovery-college",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "27e0c342-278c-475e-811f-c94bccf46095",
+    "name": "Bedfordshire",
+    "address": "Bedfordshire, LU63JA, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "78fdea31-ef9f-49d8-9e79-2463a15a79c4",
+        "name": "Bedfordshire Community Beds Service",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/bedfordshire-community-beds-service",
+        "phone": ""
+      },
+      {
+        "id": "b7e848fc-baf7-4a24-a72d-8afc3c86828b",
+        "name": "Bedfordshire Community Health Services",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/bedfordshire-community-health-services",
+        "phone": ""
+      },
+      {
+        "id": "495dbb88-ad81-4f32-a36f-767ed71e4295",
+        "name": "Bedfordshire Community Matrons",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/bedfordshire-community-matrons",
+        "phone": ""
+      },
+      {
+        "id": "bf56e6a4-3fa1-4e50-998e-c2bed3f61aac",
+        "name": "Bedfordshire Community Multiple Sclerosis Specialist Nurse Service",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/bedfordshire-community-multiple-sclerosis-specialist-nurse-service",
+        "phone": ""
+      },
+      {
+        "id": "1c996370-dce9-4086-9e2a-e8fe53996c35",
+        "name": "Bedfordshire Community Nurses",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/bedfordshire-community-nurses",
+        "phone": ""
+      },
+      {
+        "id": "4fdd7dc7-0a53-4d52-be9d-eb3b07fc451f",
+        "name": "Bedfordshire Community Therapy Services",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/bedfordshire-community-therapy-services",
+        "phone": ""
+      },
+      {
+        "id": "580783a4-8640-498a-a07a-50d3b5c6768d",
+        "name": "Bedfordshire Occupational Therapy",
+        "category": "Community Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/bedfordshire-occupational-therapy",
+        "phone": ""
+      },
+      {
+        "id": "d1f73315-3c06-4ec6-a12d-9c1cc5395ce4",
+        "name": "Bedfordshire Phlebotomy Service",
+        "category": "Community Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/bedfordshire-phlebotomy-service",
+        "phone": ""
+      },
+      {
+        "id": "18c35241-7df0-4318-af17-533f15161803",
+        "name": "Bedfordshire Specialist Palliative Care",
+        "category": "Community Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/bedfordshire-specialist-palliative-care",
+        "phone": ""
+      },
+      {
+        "id": "b4ec46c7-56fa-42e7-9086-3f486f863045",
+        "name": "Bedfordshire Transfer of Care Service",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/bedfordshire-transfer-care-service",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "a3447a80-40a8-4189-8e85-c8455289cd4d",
+    "name": "Bedfordshire CAMHS",
+    "address": "9 Rush Court, Bedford, MK40 3JT, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "6e92a554-b1ef-4940-86f9-aef3afbbaa04",
+        "name": "Bedfordshire and Luton Community Eating Disorders Service for Children and Young People",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/bedfordshire-and-luton-community-eating-disorders-service-children-and-young-people",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "6ca145af-8e9d-4979-be36-32a88b57c58d",
+    "name": "Bedfordshire Community Health Services",
+    "address": "Queensborough House, Dunstable , LU6 3JA, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "8e798f64-35ca-47a1-aad8-a47245dac9db",
+        "name": "Bedfordshire Community Epilepsy Specialist Nurse Service",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/bedfordshire-community-epilepsy-specialist-nurse-service",
+        "phone": ""
+      },
+      {
+        "id": "8cc0a918-367a-455d-8eeb-a12e59420968",
+        "name": "Bedfordshire Parkinson's Disease Nurse",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/bedfordshire-parkinsons-disease-nurse",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "59ea8861-ed7a-450f-8b00-b0375cafb193",
+    "name": "Bedfordshire Palliative Care Hub",
+    "address": "Sue Ryder St John's Hospice, Moggerhanger, MK44 3RJ, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "8aaad6d7-58f6-45e6-969e-d6edcca4cdbd",
+        "name": "Bedfordshire Palliative Care Hub",
+        "category": "Community Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/bedfordshire-palliative-care-hub",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "7e775fd3-4297-489f-8479-0c1d9e8f3c29",
+    "name": "Bedfordshire Police Headquarters",
+    "address": "Woburn road, Kempston, MK43 9AX, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "8ce6343d-7435-4c35-b41a-1a11564c68c7",
+        "name": "Bedfordshire and Luton Mental Health Street Triage",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/bedfordshire-and-luton-mental-health-street-triage",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "592b0d36-00dc-47e2-bf5e-8e2b5591c4e5",
+    "name": "Burdett House, Mile End Hospital",
+    "address": "Bancroft Road, London, E1 4DG, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "64640284-c7f1-486c-bf7b-d6e3b7c150b5",
+        "name": "Management Offices (Tower Hamlets)",
+        "category": "Corporate",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/management-offices-tower-hamlets",
+        "phone": ""
+      },
+      {
+        "id": "d437cadd-f200-49e9-9d52-dcf043d57e6d",
+        "name": "Psychological Therapies for Older People",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/psychological-therapies-older-people",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "2fda3832-2d60-4359-881c-4225d5d15fb1",
+    "name": "Calnwood Court",
+    "address": "Calnwood Road, Luton , LU4 0LU, United Kingdom",
+    "latitude": 51.9012,
+    "longitude": -0.4705,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LUTON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "5b6d3159-a7af-4466-b2de-0917f469c3ca",
+        "name": "Crystal Ward (Luton)",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/crystal-ward-luton",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "a15ab1f6-64d6-4cb3-a684-d3465e0f384d",
+    "name": "Cazaubon Unit East Ham Care Centre,",
+    "address": "Shrewsbury Road, Forest Gate,, London , E7 8QP, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "664e696c-5381-4dc4-9d71-4b5daed429e1",
+        "name": "Cazaubon Unit Dementia Assessment (formerly Columbia Ward)",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/cazaubon-unit-dementia-assessment-formerly-columbia-ward",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "6ddad08a-0361-4a44-9634-a2bd711b68fa",
+    "name": "Charter House",
+    "address": "Alma Street, Luton , LU1 2PJ, United Kingdom",
+    "latitude": 51.8814,
+    "longitude": -0.4184,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LUTON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "0b55f6cc-3117-40c7-81a2-b3c9701df0c0",
+        "name": "Bedfordshire and Luton IPS Employment Service",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/bedfordshire-and-luton-ips-employment-service",
+        "phone": ""
+      },
+      {
+        "id": "0bfe6a40-0b45-498b-903c-7b8fee05d541",
+        "name": "CAMHS (South Bedfordshire and Luton)",
+        "category": "Children",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/camhs-south-bedfordshire-and-luton",
+        "phone": ""
+      },
+      {
+        "id": "726f1e2d-5a3b-45b2-955c-4dff131509c0",
+        "name": "Liaison and Diversion Service (Bedfordshire and Luton)",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/liaison-and-diversion-service-bedfordshire-and-luton",
+        "phone": ""
+      },
+      {
+        "id": "17535495-f0a7-4081-8ed2-2ffb069e421d",
+        "name": "Luton Community Mental Health Hub - North",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/luton-community-mental-health-hub-north",
+        "phone": ""
+      },
+      {
+        "id": "53dcd3c3-63b3-4b55-aa6b-dfca674a5f25",
+        "name": "Luton Community Mental Health Hub – South",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/luton-community-mental-health-hub-south",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "1005fac3-4251-456d-a062-b8098c7036f1",
+    "name": "Chest Clinic - Ombersley House",
+    "address": "Bedford Hospital South Wing, Kempston Road, Bedford, MK42 9DJ, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "61e08caa-2f80-46ba-a8ce-020b30870c3d",
+        "name": "Bedfordshire Tuberculosis Nursing Service",
+        "category": "Community Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/bedfordshire-tuberculosis-nursing-service",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "5200576b-32c4-443a-a067-13bfea4e8a7a",
+    "name": "Children and Young People Centre",
+    "address": "15 Homerton Row, Hackney, London, E9 6ED, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "82e573a6-797c-42b2-96f5-40fd5875ecbb",
+        "name": "CAMHS City and Hackney",
+        "category": "Children",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/camhs-city-and-hackney",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "3ae0b66e-ce62-41fe-ba3e-507eba0d25c1",
+    "name": "City & Hackney Centre for Mental Health",
+    "address": "Homerton Row, London , E9 6SR, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "9e19b662-453a-4a9c-9de5-59c10c89e74b",
+        "name": "Conolly Ward (City & Hackney)",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/conolly-ward-city-hackney",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "0bd7c879-e49f-477f-8f3f-cc587bb0d88d",
+    "name": "City & Hackney Specialist Psychotherapy Service",
+    "address": "Donald Winnicott Centre, London , E2 9AG, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "5b33e2fb-3047-4590-9905-968a0b383078",
+        "name": "Psychotherapy Department (City & Hackney)",
+        "category": "Community Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/psychotherapy-department-city-hackney",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "40bc055c-df1e-47d1-acb8-6bbae01443fc",
+    "name": "City and Hackney Centre for Mental Health",
+    "address": "Homerton Row, Hackney, London, E9 6SR, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "e284bc58-2564-4af4-964d-c09d04f8313f",
+        "name": "Brett Ward",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/brett-ward",
+        "phone": ""
+      },
+      {
+        "id": "62bed111-49c0-4f1c-868b-3121c5b9a24a",
+        "name": "City & Hackney Centre for Mental Health",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/city-hackney-centre-mental-health",
+        "phone": ""
+      },
+      {
+        "id": "6745b4c0-eccd-4e15-a568-e41ef47a41bf",
+        "name": "Gardner Ward (City & Hackney)",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/gardner-ward-city-hackney",
+        "phone": ""
+      },
+      {
+        "id": "5f118226-46be-4f68-ba6c-5141e8844a06",
+        "name": "Home Treatment Team City & Hackney",
+        "category": "Corporate",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/home-treatment-team-city-hackney",
+        "phone": ""
+      },
+      {
+        "id": "32af4efa-6b57-4f8b-94f5-1e3292993cae",
+        "name": "Joshua Ward (City & Hackney)",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/joshua-ward-city-hackney",
+        "phone": ""
+      },
+      {
+        "id": "d73fb785-cd8d-478d-9da6-96c4d946b499",
+        "name": "Mental Health Crisis Support (City & Hackney)",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/mental-health-crisis-support-city-hackney",
+        "phone": ""
+      },
+      {
+        "id": "b7a185bc-40d3-457f-a4d7-4cdd6c7ece70",
+        "name": "Mother & Baby Unit (MBU)",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/mother-baby-unit-mbu",
+        "phone": ""
+      },
+      {
+        "id": "4bacc9c6-3c6d-4874-92b5-b31977a13f88",
+        "name": "Perinatal Service (City & Hackney)",
+        "category": "Corporate",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/perinatal-service-city-hackney",
+        "phone": ""
+      },
+      {
+        "id": "3947c2b3-c1dc-4211-88a0-61c7029d4df6",
+        "name": "Ruth Seifert Ward",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/ruth-seifert-ward",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "cc2c362b-d3d2-48c5-af2e-ed8bfa35da44",
+    "name": "Clinical Resource Centre",
+    "address": "Twinwoods Health Resource Centre, Bedford, MK41 6AT, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "3e871e12-aa28-43bb-bd6c-0dc7678b94f5",
+        "name": "Bedfordshire, Luton & Milton Keynes Autism Service",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/bedfordshire-luton-milton-keynes-autism-service",
+        "phone": ""
+      },
+      {
+        "id": "7e6b6e64-88ef-404a-b1c0-c7373ca0f4b0",
+        "name": "Specialist Services for People with a Learning Disability (Bedfordshire and Luton)",
+        "category": "Corporate",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/specialist-services-people-learning-disability-bedfordshire-and-luton",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "9f3264db-8242-4b03-9268-7081ce489f66",
+    "name": "Clozapine Clinic",
+    "address": "Wilmer Place, London, N16 0LN, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "e5a45581-ca65-48f2-a6ab-e5b6452a6f5f",
+        "name": "Clozapine Clinic - North",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/clozapine-clinic-north",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "db7e26d2-a0ad-4d80-a75b-3a4a2e4766e9",
+    "name": "Coborn Centre for Adolescent Mental Health",
+    "address": "Cherry Tree Way, London, E13 8SP, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "ba9e56c7-d603-4931-b062-02cdbe514e19",
+        "name": "Coborn Centre for Adolescent Mental Health",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/coborn-centre-adolescent-mental-health",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "6e2d245d-23e5-4117-b1f8-0709d89b4d88",
+    "name": "Crombie House",
+    "address": "36 Hockliffe Street, Leighton Buzzard, Bedfordshire, LU7 1HJ, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "b5651dc1-2e4f-4a38-8920-5dc600bd4ed8",
+        "name": "Leighton Buzzard CMHT",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/leighton-buzzard-cmht",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "06ff1f2a-59f9-4634-a7d9-24f1eedd668c",
+    "name": "Directorate/Management Offices, The Newham Centre for Mental Health",
+    "address": "Cherry Tree Way, Glen Road, Plaistow, , London , E13 8SP, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "99af7940-0901-448a-b3f1-3431d1a0f375",
+        "name": "Management Offices Newham Centre for Mental Health",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/management-offices-newham-centre-mental-health",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "31f3c256-ef56-471c-8a41-86407f0a4d76",
+    "name": "Donald Winnicott Centre",
+    "address": "Coate Road, London, E2 9AG, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "ae301ff5-07af-4bc8-aea8-c7caec0cdd9d",
+        "name": "Clozapine Clinic - South",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/clozapine-clinic-south",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "b27d8b90-0457-482b-a94b-9eefa4142b10",
+    "name": "Early Intervention Service, 51 Three Colts Lane",
+    "address": "Bethnal Green,  London, E2 6BF, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "a7c1fb3e-6b9a-451d-abaa-0b3fd2cc8ecb",
+        "name": "Early Intervention Service (Tower Hamlets)",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/early-intervention-service-tower-hamlets",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "a7e5ea40-fa8b-4409-974e-ff988752b0c5",
+    "name": "East Ham Care Centre",
+    "address": "302 Shrewsbury Road, London, E7 8QP, United Kingdom",
+    "latitude": 51.5398,
+    "longitude": 0.0378,
+    "receptionPhone": "020 7655 4000",
+    "borough": "NEWHAM",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "80aab64c-bf46-4973-a00f-65582e966e93",
+        "name": "Activities Service (Newham)",
+        "category": "Corporate",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "Happy Khatun, Activities Manager / Senior Occupational Therapist",
+        "seniorManager": "Joanna Raphael, Head of Therapies",
+        "url": "https://www.elft.nhs.uk/services/activities-service-newham",
+        "phone": ""
+      },
+      {
+        "id": "a52f6309-132c-4472-9d1f-a2b2bd3fac4d",
+        "name": "Adult Speech and Language Therapy Service (Newham)",
+        "category": "Community Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/adult-speech-and-language-therapy-service-newham-0",
+        "phone": ""
+      },
+      {
+        "id": "860abeba-ee57-4a17-8c46-42fd4be3b6e9",
+        "name": "Care Navigators - Newham",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "Tim Hunter – Deputy Lead Nurse",
+        "seniorManager": "Gavin Shields -- Lead Nurse",
+        "url": "https://www.elft.nhs.uk/services/care-navigators-newham",
+        "phone": ""
+      },
+      {
+        "id": "466c0ad0-8dd0-41ad-b0a8-8c8cafc931ee",
+        "name": "Community Care - Newham Older People",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/community-care-newham-older-people",
+        "phone": ""
+      },
+      {
+        "id": "87523544-c401-492a-ad37-99a9cc7da653",
+        "name": "Community Neurological Service (Newham)",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/community-neurological-service-newham",
+        "phone": ""
+      },
+      {
+        "id": "c2d1cf9c-d213-4c04-a960-c8ba9c972a9a",
+        "name": "Continence and Pelvic Rehabilitation Service - Newham",
+        "category": "Community Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "Selina Fifield, Service Manager",
+        "seniorManager": "Gavin Shields, Lead Nurse",
+        "url": "https://www.elft.nhs.uk/services/continence-and-pelvic-rehabilitation-service-newham",
+        "phone": ""
+      },
+      {
+        "id": "e99ae402-cba2-4743-b6b1-971672c5be34",
+        "name": "East Ham Care Centre",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/east-ham-care-centre",
+        "phone": ""
+      },
+      {
+        "id": "be8c55fc-9f3c-46be-b894-264b5a4b6a4a",
+        "name": "Fothergill Ward (Newham)",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/fothergill-ward-newham",
+        "phone": ""
+      },
+      {
+        "id": "6bc3b104-3acd-484a-bd31-817d3788c9da",
+        "name": "Mental Health and Physical Frailty Unit - Sally Sherman Ward",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "Gavin Shields, Lead Nurse",
+        "url": "https://www.elft.nhs.uk/services/mental-health-and-physical-frailty-unit-sally-sherman-ward",
+        "phone": ""
+      },
+      {
+        "id": "07d4ec19-11c7-4332-b69a-badef7e9fbbb",
+        "name": "Newham Community Health Services",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/newham-community-health-services",
+        "phone": ""
+      },
+      {
+        "id": "4c66342e-dd09-4c09-a3f2-0c9d50327710",
+        "name": "Pulmonary Rehabilitation (Newham)",
+        "category": "Corporate",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/pulmonary-rehabilitation-newham",
+        "phone": ""
+      },
+      {
+        "id": "a868337c-2d7a-461e-86fd-70d5004bfa13",
+        "name": "Referral and Assessment Team - Newham",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "Ade Adeosun",
+        "seniorManager": "Gavin Shields, Lead Nurse",
+        "url": "https://www.elft.nhs.uk/services/referral-and-assessment-team-newham",
+        "phone": ""
+      },
+      {
+        "id": "61a9f198-94e7-42b5-85fe-a17068f36444",
+        "name": "Single Point of Access - Newham",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/single-point-access-newham",
+        "phone": ""
+      },
+      {
+        "id": "f6d85b20-3814-483f-a72f-12638555fac8",
+        "name": "Teleheath Team",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/teleheath-team",
+        "phone": ""
+      },
+      {
+        "id": "07f7be29-1cb7-474d-a56b-ef0c3200bd25",
+        "name": "Urgent Community Response (UCR)",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/urgent-community-response-ucr",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "62b3ba46-1c30-499e-b10f-d75c7af1c7c5",
+    "name": "East Ham Memorial Building",
+    "address": "298 Shrewsbury Road, , London , E7 8QP, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "7fa050ca-75b2-43cb-a88c-2954e71b63d2",
+        "name": "Community Integrated Mental Health Team (North)",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/community-integrated-mental-health-team-north",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "45ba6107-2af9-4210-8546-4df954963601",
+    "name": "ELFT Community Mental Health Services 117 Balaam Street,",
+    "address": "Plaistow, , London , E13 8AF, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "63cf1b9e-04cc-4c49-859b-54b3ab5c876d",
+        "name": "Individual Placement & Support (IPS) Employment Service (Newham)",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/individual-placement-support-ips-employment-service-newham",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "bd3fc10c-f155-4141-835a-1f166045f71a",
+    "name": "Emanuel Miller Centre",
+    "address": "11 Gill Street, London, E14 8HQ, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "19184a69-5bf4-4e3b-a87c-fa5efa3e944f",
+        "name": "CAMHS Community Eating Disorder Service (East London)",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/camhs-community-eating-disorder-service-east-london",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "7060f423-ee06-4721-b90d-696baf1d4bc3",
+    "name": "Emmanuel Miller Centre (Upper floor)",
+    "address": "11 Gill Street, London, E14 8HQ, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "57aa8fb9-cb63-428e-92ee-faefac63c31b",
+        "name": "East London Community Eating Disorders Service For Children and Young people",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/east-london-community-eating-disorders-service-children-and-young-people",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "04689cf8-168a-4128-a44b-4915267e8cf4",
+    "name": "Enhanced Service Centre",
+    "address": "Bedford Health Village, Bedford, MK40 2NT, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "730a0a57-471e-48ac-8f02-175e7f1c19ec",
+        "name": "Bedfordshire Tissue Viability (Wound Care) Nurse",
+        "category": "Corporate",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/bedfordshire-tissue-viability-wound-care-nurse",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "e89f6a74-ece6-4d05-b557-c9913a19c474",
+    "name": "Felstead Street Clinic",
+    "address": "30 Felstead Street, Hackney Wick, London, E9 5LG, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "eee567e6-3eed-4f79-9f32-807376ace9c8",
+        "name": "City & Hackney Dementia Service",
+        "category": "Corporate",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/city-hackney-dementia-service",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "dc61b1ed-74a5-4b22-9437-6433fde16f68",
+    "name": "First Avenue Resource Centre",
+    "address": "103 First Avenue, Plaistow, , London , E13 8AP, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "82155db3-151c-4aeb-a446-46537db65c99",
+        "name": "Community Dementia Care Team (CDT) Newham",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/community-dementia-care-team-cdt-newham",
+        "phone": ""
+      },
+      {
+        "id": "f969b52e-9b01-43f8-b47c-d63122b86d79",
+        "name": "Community Mental Health Team (CMHT) for Older People in Newham",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/community-mental-health-team-cmht-older-people-newham",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "b2093293-31f8-40d5-8a80-39b2b0b40f53",
+    "name": "First floor",
+    "address": "Calnwood Court, Luton, LU4 0LU, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "6ac7cecb-4c8b-454c-a5f1-40c5b2d42bb8",
+        "name": "Evergreen Unit for Adolescent Mental Health",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/evergreen-unit-adolescent-mental-health",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "1557da64-1a40-4a12-a871-62cc622e1bc0",
+    "name": "Florence Ball House (Central base)",
+    "address": "Bedford Health Village, Bedford, MK40 2NT, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "a4bf5535-9665-4bc3-b7a0-a2659be63c3b",
+        "name": "Bedfordshire and Luton AMHP Service",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/bedfordshire-and-luton-amhp-service",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "080a44f3-431c-4616-b55f-629de319da61",
+    "name": "Fountains Court",
+    "address": "Merton Road, Bedford, MK40 3AF, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "e9348568-e9b7-44f5-940c-5ad91b70afab",
+        "name": "Bedford Older People's Inpatient Service",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/bedford-older-peoples-inpatient-service",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "8461b593-91bb-4bba-931e-50754f442cdc",
+    "name": "Gilbert Hitchcock House",
+    "address": "21 Kimbolton Road, Bedford, MK40 2AW, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "ba0891aa-ae83-4285-a903-33dda6f070de",
+        "name": "Bedfordshire Talking Therapies",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/bedfordshire-talking-therapies",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "173f01ae-be5f-49c3-a0dd-4f4d77873c31",
+    "name": "Glasshouse Fields Centre",
+    "address": "68 Glasshouse Fields, London, E1W 3AB, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "8f8f984f-3353-4928-bc9f-e4deda184798",
+        "name": "Stepney & Wapping Neighbourhood Mental Health Team",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/stepney-wapping-neighbourhood-mental-health-team",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "84544b33-fa3b-438a-a9eb-3feb8303f97e",
+    "name": "Ground Floor - Burdett House",
+    "address": "Mile End Hospital,  London, E1 4DG, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "3b731c64-4efb-4776-bc6c-000061cf1f55",
+        "name": "Perinatal Service (Tower Hamlets)",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/perinatal-service-tower-hamlets",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "8959a68d-366f-428c-b11a-96b45e08c5f5",
+    "name": "Grove View Integrated",
+    "address": "Health and Care Hub, Dunstable, LU5 4JD, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "62eac9cf-a454-4de0-b21f-8dbd6bc10b52",
+        "name": "Bedfordshire Urgent Community Response",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/bedfordshire-urgent-community-response",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "76e7552e-873c-46b8-ae02-f53bc2315042",
+    "name": "Grove View Integrated Health & Care Hub",
+    "address": "Court Drive,, Dunstable, LU5 4JD, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "4a1cf309-1386-4a92-acc3-91344a67c028",
+        "name": "Phlebotomy (Blood Testing) Service - Grove View, Dunstable",
+        "category": "Community Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/phlebotomy-blood-testing-service-grove-view-dunstable",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "6d5bc360-114b-4374-8dc9-19471525ea27",
+    "name": "Grove View Integrated Health and Care Hub",
+    "address": "Court Drive, Bedfordshire, LU5 4JD, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "1b117680-903a-488e-aa33-6c6501504ee7",
+        "name": "Path to Recovery (P2R) Central Bedfordshire",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/path-recovery-p2r-central-bedfordshire",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "3a2d1694-99bb-477f-895d-112b8975df87",
+    "name": "Grove View Integrated Health Hub",
+    "address": "3rd Floor, Dunstable, Bedfordshire, LU5 4JD, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "f0924a92-24d0-417b-960b-047b1ef87d30",
+        "name": "Dunstable CMHT",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/dunstable-cmht",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "bba7ff91-14c3-40e5-a1a8-4ec4fe4b1776",
+    "name": "Grovebury Road",
+    "address": "Leighton Buzzard, LU7 4SF, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "a0833099-7e24-4b60-9576-48c787331c2a",
+        "name": "Leighton Road Surgery (Leighton Buzzard)",
+        "category": "Primary Care",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/leighton-road-surgery-leighton-buzzard",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "4d1a1957-4427-46e3-b1a5-ece10554472e",
+    "name": "Hackney Service Centre",
+    "address": "1 Hillman Street , London , E8 1DY, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "3348b812-05a0-4c96-bd13-55ac3bc4da8f",
+        "name": "City & Hackney: Integrated Learning Disability Service (ILDS)",
+        "category": "Corporate",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/city-hackney-integrated-learning-disability-service-ilds",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "f9e15a83-7289-48c7-84f0-a78998aa8346",
+    "name": "Homerton University Hospital",
+    "address": "Homerton Row, London, E9 6SR, United Kingdom",
+    "latitude": 51.5485,
+    "longitude": -0.0505,
+    "receptionPhone": "020 7655 4000",
+    "borough": "CITY & HACKNEY",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "c2fb1a7b-f24b-4350-a63a-0236be995d36",
+        "name": "City & Hackney Psychology",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/city-hackney-psychology",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "95e2f7fc-e581-455e-ab7b-b9dd9e6b36e4",
+    "name": "House 15, Newham University Hospital",
+    "address": "Glen Road, Plaistow, , London, E13 8SL, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "e46f7530-9d6f-436c-8279-02a688d8920a",
+        "name": "Perinatal Mental Health Team (Newham)",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/perinatal-mental-health-team-newham",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "7f3e5943-9a19-438e-aadc-87e469dcb75b",
+    "name": "John Bunyan House",
+    "address": "3 Kimbolton Road, Bedford, MK40 2NT, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "0dc6d0ad-9630-4331-bbac-10e23d3085d0",
+        "name": "OCEAN Mental Health Service (Bedfordshire & Luton)",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/ocean-mental-health-service-bedfordshire-luton",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "be089b80-fdec-4347-8a51-35f29529fe43",
+    "name": "John Howard Centre",
+    "address": "12 Kenworthy Road, London, E9 5TD, United Kingdom",
+    "latitude": 51.5482,
+    "longitude": -0.0485,
+    "receptionPhone": "020 7655 4000",
+    "borough": "CITY & HACKNEY",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "891f44b6-78f1-4a52-87da-57a71229c0e0",
+        "name": "Clerkenwell Ward (Learning Disability)",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/clerkenwell-ward-learning-disability",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "dfbbec84-1a0c-499f-a10d-d4a13244762a",
+    "name": "Lord Lister Health Centre",
+    "address": "121 Woodgrange Road, London, E7 0EP, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "5c1be4f2-cbc0-4b7c-b1ee-172dcdea0071",
+        "name": "Newham Adult Autism Diagnostic Service",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/newham-adult-autism-diagnostic-service",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "fbf0743b-07cf-4b0e-a917-0d48d223bbc7",
+    "name": "Luton Centre for Mental Health",
+    "address": "Off Calnwood Road, Luton , LU4 0FB, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "9a3b506b-1ba1-47f9-8b84-abf04b0788d9",
+        "name": "Coral Ward (Luton)",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/coral-ward-luton",
+        "phone": ""
+      },
+      {
+        "id": "6eae3322-908f-4dc7-a8a4-224b9677df32",
+        "name": "Jade Ward PICU (Luton)",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/jade-ward-picu-luton",
+        "phone": ""
+      },
+      {
+        "id": "1ba57873-44a5-471c-9ed6-e66b6dc07f62",
+        "name": "Onyx Ward (Luton)",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/onyx-ward-luton",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "9e6fb881-36b7-4ee4-b679-35ecbe4b1d94",
+    "name": "Management Offices",
+    "address": "Burdett House, London, E1 4DG, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "8b56216a-ef36-4410-8bbb-9b9226dcfb4b",
+        "name": "North London Integrated Liaison and Diversion Service",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/north-london-integrated-liaison-and-diversion-service",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "8642e0ae-5b53-4b00-99e8-f97aaebb1790",
+    "name": "Mayer Way",
+    "address": "Houghton Regis, LU5 5BF, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "91d02584-b350-4581-a506-0e598e56e68d",
+        "name": "Luton and South Bedfordshire Crisis Team",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/luton-and-south-bedfordshire-crisis-team",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "74dd3e9f-4297-4e73-a9f3-fabe667144a8",
+    "name": "Meadow Lodge at Steppingley Hospital",
+    "address": "Ampthill Road, Ampthill, MK45 1AB, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "31ef2512-1018-486b-9b56-db2691e7d0a4",
+        "name": "Ampthill CMHT (Bedfordshire)",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/ampthill-cmht-bedfordshire",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "3f1ced5b-ab26-47f7-8f11-c730a4cf4f82",
+    "name": "Merton Road",
+    "address": "Bedford, MK40 3AF, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "15806590-a79e-48ad-bdcc-21cac1e86735",
+        "name": "Fountains Court (Bedford)",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/fountains-court-bedford",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "4294d4c3-b659-4352-bfa0-a855cf9a6d6c",
+    "name": "Mile End Hospital",
+    "address": "Bancroft Road, London, E1 4DG, United Kingdom",
+    "latitude": 51.5241,
+    "longitude": -0.0441,
+    "receptionPhone": "020 7655 4000",
+    "borough": "TOWER HAMLETS",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "bf083252-e53a-4bc5-9c6e-87d9e4fcd7c6",
+        "name": "Foot Health - Tower Hamlets",
+        "category": "Community Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/foot-health-tower-hamlets",
+        "phone": ""
+      },
+      {
+        "id": "3e79077c-79d7-43a6-9ae2-320c3be25c3d",
+        "name": "Home Treatment Team (Tower Hamlets)",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/home-treatment-team-tower-hamlets",
+        "phone": ""
+      },
+      {
+        "id": "74bbfa58-6002-4ec0-82ee-c97b108aa421",
+        "name": "Leadenhall Ward Functional Assessment (Tower Hamlets)",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/leadenhall-ward-functional-assessment-tower-hamlets",
+        "phone": ""
+      },
+      {
+        "id": "242b2951-4647-410c-8bb7-882c0e7d9343",
+        "name": "Mental Health Crisis Support (Tower Hamlets)",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/mental-health-crisis-support-tower-hamlets",
+        "phone": ""
+      },
+      {
+        "id": "d5c95b00-a021-4f2f-8460-8596614c581c",
+        "name": "Thames House Ward (Tower Hamlets)",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/thames-house-ward-tower-hamlets",
+        "phone": ""
+      },
+      {
+        "id": "41a04db0-78e4-406d-8da2-bcbae9e2ab9e",
+        "name": "Tower Hamlets ADHD Service",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/tower-hamlets-adhd-service",
+        "phone": ""
+      },
+      {
+        "id": "5cdb277a-8c88-4ec6-b05a-8c619bc6bc5c",
+        "name": "Tower Hamlets Mental Health Care for Older People",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/tower-hamlets-mental-health-care-older-people",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "4293230e-8720-4b6e-b531-db9dc008a3ab",
+    "name": "Mile End Hospital, 1st Floor Burdett House",
+    "address": "Bancroft Road, London , E1 4DG, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "959b9274-d2b8-4498-bdae-ac5191346849",
+        "name": "East London Eating Disorder Service (Adults)",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/east-london-eating-disorder-service-adults",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "1d839a66-4bd2-4987-b997-5185eada4716",
+    "name": "Mountbatten House",
+    "address": "56 High Street South, Dunstable, LU6 3HD, United Kingdom",
+    "latitude": 51.8845,
+    "longitude": -0.5212,
+    "receptionPhone": "020 7655 4000",
+    "borough": "BEDFORDSHIRE",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "0616f1bd-b778-4b1c-bb40-70661f20a22a",
+        "name": "Bedfordshire and Luton Complex Needs Service",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/bedfordshire-and-luton-complex-needs-service",
+        "phone": ""
+      },
+      {
+        "id": "aee79e6f-56a6-4d33-be01-b649732bff6e",
+        "name": "Bedfordshire Chronic Fatigue Syndrome Service",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/bedfordshire-chronic-fatigue-syndrome-service",
+        "phone": ""
+      },
+      {
+        "id": "f2a3b7e1-b988-4b30-a497-157fba2ba4a4",
+        "name": "BLMK Post Covid Fatigue Service",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/blmk-post-covid-fatigue-service",
+        "phone": ""
+      },
+      {
+        "id": "f96ac3c0-1997-4d3d-ba5f-3b00169789f4",
+        "name": "Community Eating Disorder Service (Bedfordshire and Luton)",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/community-eating-disorder-service-bedfordshire-and-luton",
+        "phone": ""
+      },
+      {
+        "id": "99e46745-00c6-4b04-a686-5e7e41b37fe1",
+        "name": "Macmillan Cancer and Palliative Care Psychology Service",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/macmillan-cancer-and-palliative-care-psychology-service",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "9df25227-6336-48a7-a9d3-4d2296de6417",
+    "name": "Newham",
+    "address": "London, E16 1LQ, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "a2240653-39e2-4f3b-bdf2-04771563faff",
+        "name": "Newham blood testing service",
+        "category": "Community Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/newham-blood-testing-service",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "ff7713e2-b38d-4f13-9895-2b01dc6e3b86",
+    "name": "Newham Centre for Mental Health",
+    "address": "Glenn Road, London, E13 8SP, United Kingdom",
+    "latitude": 51.5226,
+    "longitude": 0.0248,
+    "receptionPhone": "020 7655 4000",
+    "borough": "NEWHAM",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "7b6056c4-5165-488e-8c6a-f50b9ebbb77b",
+        "name": "Dialog",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/dialog",
+        "phone": ""
+      },
+      {
+        "id": "8d3da417-5552-4e66-b109-323f6891e138",
+        "name": "Home Treatment Team (Newham)",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/home-treatment-team-newham",
+        "phone": ""
+      },
+      {
+        "id": "561a1d9b-7519-4201-a177-08dab1fb4ee6",
+        "name": "Ivory Ward (Newham)",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/ivory-ward-newham",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "1da31e72-d44d-4dca-804c-a1683145a311",
+    "name": "Newham Centre for Mental Health, Cherry Tree Way, Glen Road,",
+    "address": "Plaistow, London , E13 8SP, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "8315b5c8-7aa6-450f-8b9c-a37b64bb7a33",
+        "name": "Newham Centre for Mental Health",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/newham-centre-mental-health",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "9a5f4fa5-f837-4e05-8a7b-d92e04a56626",
+    "name": "Newham University Hospital",
+    "address": "Glen Road, London, E13 8SL, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "ed8b6b64-8b17-4e74-958f-24dc048dd11b",
+        "name": "Newham Integrated Discharge Hub",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/newham-integrated-discharge-hub-0",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "26a18e88-e844-4028-b8dc-4f679542064f",
+    "name": "North East & West Locality, 3rd floor, Beaumont House, Mile End Hospital, Bancroft Road",
+    "address": "London , E1 4DG, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "f18daca6-a274-4b25-ac35-daa234fd7c4e",
+        "name": "Tower Hamlets Integrated Occupational Therapy",
+        "category": "Community Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/tower-hamlets-integrated-occupational-therapy",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "72529102-a5a9-4e28-9a0a-d11601d3e109",
+    "name": "NRS Healthcare",
+    "address": "Unit 5, SEGRO Park Tottenham, London, N17 7RP, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "80e87308-589c-4c7a-aa22-29e70a10113b",
+        "name": "Tower Hamlets Community Equipment Service",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/tower-hamlets-community-equipment-service",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "30c97b11-db32-430e-8bfb-83b6754eb0a0",
+    "name": "Oakley Court",
+    "address": "Angel Close, Luton , LU4 9WT, United Kingdom",
+    "latitude": 51.8984,
+    "longitude": -0.4682,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LUTON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "297e522f-1ab2-479a-a377-eb241a33fa65",
+        "name": "Ash Ward (Bedfordshire and Luton)",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/ash-ward-bedfordshire-and-luton",
+        "phone": ""
+      },
+      {
+        "id": "288e38dc-9c55-46d0-ba90-a8bd4de4e02e",
+        "name": "Oakley Court (Bedfordshire)",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/oakley-court-bedfordshire",
+        "phone": ""
+      },
+      {
+        "id": "4087f11a-e267-4501-9b41-e0a493debdc5",
+        "name": "Willow Ward - Bedfordshire",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/willow-ward-bedfordshire",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "ce1e210e-5ad7-4849-980e-1fa43e3dec76",
+    "name": "Passmore Edwards Building",
+    "address": "Shrewsbury Road, , London , E7 8QR, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "dbf0c87b-caf2-476c-b96b-4de44e0be199",
+        "name": "Community Recovery Team North (Newham)",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/community-recovery-team-north-newham",
+        "phone": ""
+      },
+      {
+        "id": "7aff15a9-b17b-4ee7-bb8c-66f4767c2063",
+        "name": "Recovery Team South (Newham)",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/recovery-team-south-newham",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "edcef06c-ebac-4ffd-aa03-68905f721c1d",
+    "name": "Queensborough House",
+    "address": "Friars Walk, Bedfordshire , Dunstable, LU6 3JA, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "81948211-5f4d-4b63-98bb-2b4c1206be11",
+        "name": "Bedfordshire Continence Service",
+        "category": "Community Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/bedfordshire-continence-service",
+        "phone": ""
+      },
+      {
+        "id": "d17fc7e3-5d48-4204-bac2-07918d43b628",
+        "name": "Single Point of Access (Bedfordshire)",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/single-point-access-bedfordshire",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "0afb019f-aba8-4341-a952-21401e1c4e12",
+    "name": "Raymond Smith Building",
+    "address": "Twinwoods Health Resource Centre, Milton Road, Bedfordshire, MK41 6AT, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "81f16536-0d3f-4921-a4a0-33deb046fbb4",
+        "name": "Learning Disabilities Intensive Support Team - Bedfordshire",
+        "category": "Corporate",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/learning-disabilities-intensive-support-team-bedfordshire",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "01ea937b-1e99-4e15-adb5-350679cb5b22",
+    "name": "Room CT 22, 2nd Floor",
+    "address": "Newby Place Health and Wellbeing Centre, London, E14 0EY, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "51f158d9-ceda-493d-a849-21b825612e99",
+        "name": "Newham Continuing Healthcare Team",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/newham-continuing-healthcare-team",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "e4b7a86d-2a72-40d3-81fa-66ddc1c7170d",
+    "name": "Royal London Hospital - 6th floor",
+    "address": "New Hospital, Stepney Way, London, E1 1BB, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "83dc3cca-e7a4-45a0-870b-b6522404fefb",
+        "name": "Paediatric Liaison Team",
+        "category": "Children",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/paediatric-liaison-team",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "bb2fced7-3cd8-4b59-9394-0dfeab1b4ebe",
+    "name": "Royal London Hospital - 6th floor, New Hospital,",
+    "address": "Stepney Way, , London , E1 1BB, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "3dd4cac0-3e3c-4977-907d-25b5b7e1668d",
+        "name": "Tower Hamlets Paediatric Liaison Team (PLT)",
+        "category": "Children",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/tower-hamlets-paediatric-liaison-team-plt",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "59760a64-ea24-413e-bae3-574023a9c902",
+    "name": "Royal London Hospital - A&E Dept New Hospital",
+    "address": "Stepney Way, London, E1 1BJ, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "ea99b006-0df4-4792-b74c-1cce0366b204",
+        "name": "Tower Hamlets Mental Health Liaison and Psychological Medicine",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/tower-hamlets-mental-health-liaison-and-psychological-medicine",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "82b5942f-c535-4810-8111-6406a0540d0c",
+    "name": "Shrewsbury Road Centre",
+    "address": "306 Shrewsbury Road, London, E7 8DQ, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "7ff98998-714d-49b5-928c-ce512ec0fe7c",
+        "name": "Foot Health Service - Newham",
+        "category": "Community Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "Marie Parchment, Service Manager",
+        "seniorManager": "Joanna Raphael, Head of Adult Therapies",
+        "url": "https://www.elft.nhs.uk/services/foot-health-service-newham",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "4ef2d00c-1d73-468e-8ee6-d658d94eade2",
+    "name": "Shrewsbury Road Health Centre",
+    "address": "Shrewsbury Road,, London, E7 8QP, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "14d1c743-1428-4047-a242-5b32423263ff",
+        "name": "Cardiac Rehabilitation Service",
+        "category": "Corporate",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/cardiac-rehabilitation-service",
+        "phone": ""
+      },
+      {
+        "id": "cb3b9dab-c3a0-4dc0-a559-47fdc9ec7b58",
+        "name": "Diabetes Specialist Nursing Service - Newham",
+        "category": "Community Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/diabetes-specialist-nursing-service-newham",
+        "phone": ""
+      },
+      {
+        "id": "cd0c9901-d460-4608-b799-f8defba3105c",
+        "name": "Newham Phlebotomy Service (Blood Testing)",
+        "category": "Community Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/newham-phlebotomy-service-blood-testing",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "fa6a6e99-90a6-44ac-bfae-1365f06b29d1",
+    "name": "Speech & Language Therapy - Early Years",
+    "address": "West Ham Lane Health Centre, 84 West Ham Lane, Newham, E15 4PT, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "f522d5d4-6486-4ac4-a44c-19029a13cacd",
+        "name": "Speech & Language Therapy - Early Years",
+        "category": "Community Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/speech-language-therapy-early-years",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "b948d31f-9669-4dea-b58b-b31726649152",
+    "name": "Speech and Language Therapy Department, Beeden House, Bedford Hospital",
+    "address": "Kempston Road, Bedford, MK42 9DJ, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "32954d40-a513-4b99-99ef-d1e92fe06f04",
+        "name": "Bedfordshire Adult Speech and Language Therapy (S&LT)",
+        "category": "Community Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/bedfordshire-adult-speech-and-language-therapy-slt",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "dad295f5-352e-47ba-bf85-48fd2ef09403",
+    "name": "Spring House, Biggleswade Hospital",
+    "address": "Potton Road, Biggleswade, SG18 0EJ, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "9cb468fa-52dd-4bcb-b772-89300e5c4e88",
+        "name": "Biggleswade CMHT (Bedfordshire)",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/biggleswade-cmht-bedfordshire",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "4e917d33-2eb9-4241-b859-9ef0571ee0e3",
+    "name": "Steppingley Hospital",
+    "address": "Steppingley, MK45 1AB, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "96194fd4-d0eb-4876-9edc-5b3daaf1a937",
+        "name": "Bedfordshire and Luton Wheelchair Service",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/bedfordshire-and-luton-wheelchair-service",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "08572815-da42-46dc-8741-aef1d7ca56fc",
+    "name": "Stratford Advice Arcade",
+    "address": "107-109 The Grove, London, E15 1HP, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "804e5adf-9df7-49f9-826c-29b625c503df",
+        "name": "Newham Recovery College",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/newham-recovery-college",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "901a4bea-7d18-4d8f-9b39-58c5ff639256",
+    "name": "The Appleby Centre",
+    "address": "63 Appleby Road, London, E16 1LQ, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "ca0462f7-c121-44ad-9dd4-608af3a2a6fa",
+        "name": "Cardiac Rehabilitation - the Appleby Centre",
+        "category": "Corporate",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/cardiac-rehabilitation-appleby-centre",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "ed1dfa4b-3f58-455d-b66f-fc035803b003",
+    "name": "The Barkantine",
+    "address": "121 Westferry Road , London, E14 8JH, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "ccb8a05d-a41e-4574-bc5d-ec9af9bfc907",
+        "name": "Isle of Dogs Neighbourhood Mental Health Team",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/isle-dogs-neighbourhood-mental-health-team",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "767ca202-8d77-4baa-9adf-81ed0fd4690d",
+    "name": "The Centre Manor Park",
+    "address": "30 Church Road,  London , E12 6AQ, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "b4ca9c1b-ccb0-4894-8af6-02b752e5ed67",
+        "name": "Newham Transitional Practice",
+        "category": "Corporate",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/newham-transitional-practice",
+        "phone": ""
+      },
+      {
+        "id": "90b4e4a1-a071-4507-8462-d0fba9dfbd32",
+        "name": "The Centre Manor Park",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/centre-manor-park",
+        "phone": ""
+      },
+      {
+        "id": "c5b3b10d-5daf-40e6-9563-b69a042612c6",
+        "name": "Tissue Viability Service (Newham)",
+        "category": "Corporate",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/tissue-viability-service-newham",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "4e68cc59-d590-4a05-a6e1-302939350f96",
+    "name": "The Centre Manor Park 30 Church Road, Manor Park",
+    "address": "London, E12 6AQ, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "ca16e801-d148-479a-9dca-27e93ed88a02",
+        "name": "Phlebotomy (Blood Testing) The Centre Manor Park",
+        "category": "Community Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/phlebotomy-blood-testing-centre-manor-park",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "89e76a85-1175-45e7-b32f-7d9df62fa718",
+    "name": "The Coppice",
+    "address": "2 The Glade, Bromham, Bedfordshire, MK43 8HJ, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "29de595e-cb49-4a04-8244-8d13466ab7e1",
+        "name": "The Coppice (Bedfordshire)",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/coppice-bedfordshire",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "eaac0312-b985-442c-8758-049e8386149c",
+    "name": "The Lawns Resource Centre",
+    "address": "The Baulk, Biggleswade, Bedfordshire, SG18 0PT, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "2a17b43a-583b-44d1-b390-beda0167fd59",
+        "name": "Mid-Bedfordshire Older Peoples CMHT",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/mid-bedfordshire-older-peoples-cmht",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "838ebfa4-c014-4f92-a120-c0573475b694",
+    "name": "The Newham Centre for Mental Health Cherry Tree Way, Glen Road, Plaistow, London E13 8SP",
+    "address": "Plaistow, , London , E13 8SP, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "e72820ce-8410-45ea-8ad4-4a052fcac27d",
+        "name": "Emerald Ward",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/emerald-ward",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "64835075-595d-4102-949b-f33d8b515a0b",
+    "name": "The Newham Centre for Mental Health,",
+    "address": "Cherry Tree Way, Glen Road. Plaistow, , London , E13 8SP, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "d51df4b7-f5be-4f87-990b-9686026f91d1",
+        "name": "Crystal Ward (Newham)",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/crystal-ward-newham",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "a87bc1c3-ddfd-4357-af23-4b59dfab8d87",
+    "name": "The Newham Centre for Mental Health, Cherry Tree Way",
+    "address": "Glen Road, Plaistow, London , E13 8SP, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "8970f38f-a563-4797-8326-5af60aef4cf7",
+        "name": "Opal Ward (Newham)",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/opal-ward-newham",
+        "phone": ""
+      },
+      {
+        "id": "32906d3d-2694-4ec6-8611-59b0df38cd02",
+        "name": "Ruby Triage Ward (Newham)",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/ruby-triage-ward-newham",
+        "phone": ""
+      },
+      {
+        "id": "07b3166e-e19e-454d-a320-017cc9ec9aa4",
+        "name": "Topaz Ward (Newham)",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/topaz-ward-newham",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "907650d9-3eb9-4695-893c-8382763f4158",
+    "name": "The Newham Centre for Mental Health, Cherry Tree Way, Glen Road,",
+    "address": "Plaistow,,  London , E13 8SP, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "f4b6ba72-8302-4952-8d40-b1754d4429b7",
+        "name": "Sapphire Ward (Newham)",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/sapphire-ward-newham",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "27601cde-1c0a-418a-800f-01fbc7039c7d",
+    "name": "The Physiotherapy Department",
+    "address": "29 Romford Road, London, E15 4LY, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "d414332a-315f-4f13-bb34-0b6ae370dd5a",
+        "name": "Cardiac Rehabilitation Service - Group Classes",
+        "category": "Corporate",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/cardiac-rehabilitation-service-group-classes",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "cd34a98d-28ba-40ad-8376-d331360c4812",
+    "name": "The Primrose Resource Centre",
+    "address": "23 Primrose Square, London, E9 7TS, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "dad35f42-d352-4fdd-9ffc-459cda0aff36",
+        "name": "Adult Autism Service (City & Hackney)",
+        "category": "Corporate",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/adult-autism-service-city-hackney",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "0227c77d-2d72-4c02-9bf5-0da9c5a2f862",
+    "name": "The Raybould Centre",
+    "address": "City and Hackney Centre for Mental Health, London, E9 6SR, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "a8a2c161-d2d9-423f-a284-f1b17ab43e17",
+        "name": "Walk-in Crisis Café - City & Hackney",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/walk-crisis-cafe-city-hackney",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "6b7793f2-caa3-4d0b-b2bd-e5f08dff4869",
+    "name": "The Robinson Centre Psychological Therapies",
+    "address": "275 Bancroft Road, Mile End, London, E1 4DG, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "bd9b45fe-547e-45cc-b512-d342f512f34a",
+        "name": "Psychological Therapies for Older People (Tower Hamlets)",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/psychological-therapies-older-people-tower-hamlets",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "595d3b5b-c9cd-41e6-be12-16c0db82df89",
+    "name": "The Robinson Centre, Mile End Hospital",
+    "address": "275 Bancroft Road, Mile End, London, E1 4DG, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "67020198-e0de-4ec8-b41b-a30ec3e7a14c",
+        "name": "CMHT for Older People (Tower Hamlets)",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/cmht-older-people-tower-hamlets",
+        "phone": ""
+      },
+      {
+        "id": "26d517a2-81c1-474a-8a88-f2845e6f7198",
+        "name": "Diagnostic Memory Clinic (Tower Hamlets)",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/diagnostic-memory-clinic-tower-hamlets",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "8f92dc11-bd2a-46ff-9c3e-708d8c045548",
+    "name": "The Tower Hamlets Centre for Mental Health",
+    "address": "Bancroft Road, London, E1 4DG, United Kingdom",
+    "latitude": 51.5241,
+    "longitude": -0.0441,
+    "receptionPhone": "020 7655 4000",
+    "borough": "TOWER HAMLETS",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "000eb20b-ceb2-4954-9edc-6f6559dd6aaa",
+        "name": "Globe Ward",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/globe-ward",
+        "phone": ""
+      },
+      {
+        "id": "12229889-1eaf-4b4c-a8f5-cc696997ded9",
+        "name": "Lea Ward",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/lea-ward",
+        "phone": ""
+      },
+      {
+        "id": "9829dafc-d5f0-4c3f-9799-1a9b33c0c46e",
+        "name": "Millharbour Ward (Tower Hamlets)",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/millharbour-ward-tower-hamlets",
+        "phone": ""
+      },
+      {
+        "id": "9e783eb3-bf12-4786-9a68-896cdbfd268a",
+        "name": "Roman Ward",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/roman-ward",
+        "phone": ""
+      },
+      {
+        "id": "56b733d5-763b-4c10-a64e-68404e8e8aeb",
+        "name": "Rosebank Ward (Tower Hamlets)",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/rosebank-ward-tower-hamlets",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "806754c4-c9a4-424f-979e-63133e53f50a",
+    "name": "The Tower Hamlets Centre for Mental Health, Bancroft Road",
+    "address": "Tower Hamlets, London, E1 4DG, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "8395c923-76c2-40c4-a15c-850e70228385",
+        "name": "Brick Lane Ward, Tower Hamlets",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/brick-lane-ward-tower-hamlets",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "63c9019f-c3a9-4afa-9871-484aa1e080ff",
+    "name": "The Vicarage Lane Health Centre",
+    "address": "10 Vicarage Lane, London, E15 4ES, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "8ecee6bb-2555-4403-8fe6-0107fb10f381",
+        "name": "Newham Phlebotomy (Blood Testing) Clinics",
+        "category": "Community Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/newham-phlebotomy-blood-testing-clinics",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "e54524cb-db9c-4ab9-b266-6ce4ef66e75e",
+    "name": "This is a county-wide service",
+    "address": "Contact should be via Tel: 0345 6024064​, LU6 3JA, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "1ebdf67b-cf7d-470f-b58e-ce216055c201",
+        "name": "Bedfordshire Community Heart Failure Service",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/bedfordshire-community-heart-failure-service",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "2978abbf-33f1-4c3a-aac8-f36b2455d3c9",
+    "name": "Tower Hamlets",
+    "address": "London, E1 4DG, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "039c4b70-242b-4712-970c-62857834d80e",
+        "name": "Tower Hamlets Community Tracheostomy Service",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/tower-hamlets-community-tracheostomy-service",
+        "phone": ""
+      },
+      {
+        "id": "adc59cf3-1763-414a-8a36-38ada3746566",
+        "name": "Tower Hamlets Frailty Assessment Clinic",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/tower-hamlets-frailty-assessment-clinic",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "ee1c85cd-84bf-419d-bd1b-cdb817449184",
+    "name": "Tower Hamlets Early Detection Service (THEDS)",
+    "address": "51 Three Colts Lane, Bethnal Green, London, E2 6BF, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "5f261bbd-7e71-48b7-9fb2-4ef66451c15f",
+        "name": "Tower Hamlets Early Detection Service",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/tower-hamlets-early-detection-service",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "73f672b0-7522-4fdf-910f-0b2a7b3ee7f0",
+    "name": "Tower Hamlets Psychological Service",
+    "address": "1st Floor Burdett House, Mile End Hospital, London, E1 4DG, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "02ea8388-a163-4dc2-80bc-ef7ce1f5981a",
+        "name": "Tower Hamlets Psychological Therapies Service (PTS)",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/tower-hamlets-psychological-therapies-service-pts",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "95b984ff-de21-445b-b884-f2642308b16d",
+    "name": "Tower Hamlets Recovery College",
+    "address": "86 Old Montague Street, London, E1 5NN, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "3b69669f-a079-4f15-9c8d-0449b2acf276",
+        "name": "Tower Hamlets Recovery College",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/tower-hamlets-recovery-college",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "7832707c-fef7-48d6-bb43-55df0602a5ec",
+    "name": "Townsend Court",
+    "address": "Mayer Way, Houhgton Regis, LU5 5BF, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "a68badbe-dfe6-42c8-9f85-c6234cb8a3a6",
+        "name": "Poplars Ward (Bedfordshire and Luton)",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/poplars-ward-bedfordshire-and-luton",
+        "phone": ""
+      },
+      {
+        "id": "95fc7eb1-b11e-4059-8750-64373e2d3b83",
+        "name": "Townsend Court - Bedfordshire",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/townsend-court-bedfordshire",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "ac3ea532-dd84-478b-a26d-534312d49316",
+    "name": "Trust Headquarters",
+    "address": "9Alie St, London , E1 8DE, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "636b5982-07ef-4d93-82be-29bdbef981e8",
+        "name": "Estates & Facilities",
+        "category": "Corporate",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/estates-facilities",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "31245c5f-9c4d-46ca-a705-85a8c73ec4d3",
+    "name": "Twinwoods Health Resource Centre",
+    "address": "Milton Road, Clapham, MK41 6AT, United Kingdom",
+    "latitude": 52.1751,
+    "longitude": -0.4984,
+    "receptionPhone": "020 7655 4000",
+    "borough": "BEDFORDSHIRE",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "d475c5ed-7dac-4444-9227-bd57839f9e46",
+        "name": "Bedford Recovery Service",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/bedford-recovery-service",
+        "phone": ""
+      },
+      {
+        "id": "d853b878-8a6d-4678-9cec-645dd4a4176a",
+        "name": "Early Intervention Service (Bedfordshire)",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/early-intervention-service-bedfordshire",
+        "phone": ""
+      },
+      {
+        "id": "852ee33f-74c5-4766-a6ea-d148bd96f0cb",
+        "name": "Individual Placement Support (IPS) Team - Bedfordshire and Luton",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/individual-placement-support-ips-team-bedfordshire-and-luton",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "9da540b2-74d5-4b76-9c0b-fcbbc9460814",
+    "name": "Twinwoods Health Resource Centre,",
+    "address": "Milton Road, Clapham, Bedford, MK41 6AT, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "57db4aed-50a7-47a7-b9e0-fb4011d8108d",
+        "name": "Bedfordshire Mental Health and Wellbeing Service",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/bedfordshire-mental-health-and-wellbeing-service",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "8ade7559-becd-4d58-a6c8-0af54b8574c1",
+    "name": "Unknown Address",
+    "address": "Unknown Address",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "9b6a9250-280f-420e-a53a-9a51824f2ebc",
+        "name": "Bedfordshire & Luton Memory Assessment Service (MAS)",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/bedfordshire-luton-memory-assessment-service-mas",
+        "phone": ""
+      },
+      {
+        "id": "12281a96-a7b5-4167-a2e4-2ae1549a5fd4",
+        "name": "Bedfordshire and Luton Podiatry Service",
+        "category": "Community Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/bedfordshire-and-luton-podiatry-service",
+        "phone": ""
+      },
+      {
+        "id": "52e58c3b-000f-4d9e-a889-33c90b461670",
+        "name": "Bedfordshire Complex Care Team",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/bedfordshire-complex-care-team",
+        "phone": ""
+      },
+      {
+        "id": "8d4f1daa-b7c9-4ed8-b11e-10a746efa7e9",
+        "name": "Bethnal Green CMHT",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/bethnal-green-cmht",
+        "phone": ""
+      },
+      {
+        "id": "2d59fcc2-e396-4284-af41-742f51d9070f",
+        "name": "Bevan Ward PICU (City & Hackney)",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/bevan-ward-picu-city-hackney",
+        "phone": ""
+      },
+      {
+        "id": "787961bd-7cbc-421e-8464-ee8dba16e1ca",
+        "name": "Bow and Poplar CMHT (Tower Hamlets)",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/bow-and-poplar-cmht-tower-hamlets",
+        "phone": ""
+      },
+      {
+        "id": "dc047888-6cdd-4c14-8060-143babf419d6",
+        "name": "East London CAMHS Crisis Service",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/east-london-camhs-crisis-service",
+        "phone": ""
+      },
+      {
+        "id": "d135ca29-3952-48f9-aaf9-1633734f5f6a",
+        "name": "East London Tobacco Dependency Service",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/east-london-tobacco-dependency-service",
+        "phone": ""
+      },
+      {
+        "id": "d96e80d8-fd70-4227-aa15-62d6bc84ac95",
+        "name": "Extended Primary Care Health Teams (Tower Hamlets)",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/extended-primary-care-health-teams-tower-hamlets",
+        "phone": ""
+      },
+      {
+        "id": "8c64bd77-59b3-4688-8458-1b5bec8ced4f",
+        "name": "Extended Primary Care Team (Newham)",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/extended-primary-care-team-newham",
+        "phone": ""
+      },
+      {
+        "id": "30ef4aa0-88a2-498f-92c2-eb2f93a22d08",
+        "name": "Mental Health Crisis Support (Newham)",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/mental-health-crisis-support-newham",
+        "phone": ""
+      },
+      {
+        "id": "a2249d41-eb41-498c-9f52-a3eb564a78fa",
+        "name": "Mind BLMK Recovery Lounge service",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/mind-blmk-recovery-lounge-service",
+        "phone": ""
+      },
+      {
+        "id": "f685b82e-1bf9-4ce0-a418-0bc401eb1b9a",
+        "name": "OCEAN Mental Health Service East London",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/ocean-mental-health-service-east-london",
+        "phone": ""
+      },
+      {
+        "id": "af6108bc-a6f0-4e3d-b94e-5a8554f6ea38",
+        "name": "Stepney and Wapping CMHT",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/stepney-and-wapping-cmht",
+        "phone": ""
+      },
+      {
+        "id": "d16a8b83-5333-4052-a9f6-442c70c4ca1c",
+        "name": "Virtual Wards (Bedfordshire)",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/virtual-wards-bedfordshire",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "ab01081a-5ad6-4778-8312-1fc0bac0a130",
+    "name": "Vicarage Lane Health Centre",
+    "address": "10 Vicarage Lane, London, E15 4ES, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "9e282756-9684-4173-a44c-17ea50ae8099",
+        "name": "Newham Talking Therapies",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/newham-talking-therapies",
+        "phone": ""
+      },
+      {
+        "id": "33794ac5-7c7f-4967-8a6d-1e0da6bc6dbb",
+        "name": "Newham Transitional Practice - Branch Site",
+        "category": "Corporate",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/newham-transitional-practice-branch-site",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "53270ee4-248a-4a56-a4ea-eeac3d26382f",
+    "name": "Vivienne Cohen House",
+    "address": "2 Crozier Terrace, London, E9 6AT, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "a1d5a048-37eb-4113-873b-761618f3f777",
+        "name": "City & Hackney Single Point of Access",
+        "category": "Corporate",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/city-hackney-single-point-access",
+        "phone": ""
+      },
+      {
+        "id": "fcee52e1-7a6f-4271-8865-ae7abd9e5a3f",
+        "name": "EQUIP Team (Early Intervention City & Hackney)",
+        "category": "Corporate",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/equip-team-early-intervention-city-hackney",
+        "phone": ""
+      },
+      {
+        "id": "d804fd06-67b5-475d-90be-47b1d5d6a09a",
+        "name": "HEADS UP - Mental Health Early Detection Service (City & Hackney)",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/heads-mental-health-early-detection-service-city-hackney",
+        "phone": ""
+      },
+      {
+        "id": "07173090-cff7-48cb-ae95-8068e39f34b2",
+        "name": "Neighbourhood Recovery Service",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/neighbourhood-recovery-service",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "1c6fc4b6-2a43-469d-807d-d26591304516",
+    "name": "West Ham Lane Centre",
+    "address": "West Ham Lane, London, E15 4PT, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "5c1185f6-683d-4d56-97a9-11e548b56420",
+        "name": "Child Development Centre  (Newham)",
+        "category": "Children",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/child-development-centre-newham",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "0537b54a-3589-4088-9f71-a33702690612",
+    "name": "West Ham Lane Health Centre 84 West Ham Lane, Stratford",
+    "address": "London , E15 4PT, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "955397d1-dddd-4e78-bad6-e961c8b2e8e6",
+        "name": "Physiotherapy Service for Children (Newham)",
+        "category": "Children",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/physiotherapy-service-children-newham",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "648be242-eb99-41a3-99b1-05a65b508a0a",
+    "name": "West Ham Lane Health Centre, 84 West Ham Lane",
+    "address": "Stratford, London, E15 4PT, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "f7b98f30-126f-46d3-8925-737b374ef8fe",
+        "name": "Speech & Language Therapy - Service for Schools",
+        "category": "Children",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/speech-language-therapy-service-schools",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "32d4fab5-f0e7-4748-a194-1a42b1837c5b",
+    "name": "Whichellos Wharf The Elms",
+    "address": "Stoke Road, Leighton Buzzard, Bedfordshire, LU7 2TD, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "a2318881-f185-47fe-8da4-e225f3e1a79f",
+        "name": "The Lighthouse",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/lighthouse",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "8c25a567-f9b9-4365-9896-e5d6d2c78e2c",
+    "name": "Whitbread building",
+    "address": "Twinwoods Health Resource Centre, Milton Road, Clapham, MK41 6AT, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "5e28871a-0981-442c-877d-d84e91dc6896",
+        "name": "Bedford Older People's CMHT",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/bedford-older-peoples-cmht",
+        "phone": ""
+      }
+    ]
+  },
+  {
+    "id": "31adae5b-8ab3-45f2-904f-f3b0afaac520",
+    "name": "York House, 411 Barking Road,",
+    "address": "Plaistow,, London, E13 8AL, United Kingdom",
+    "latitude": 51.5,
+    "longitude": 0,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "75d34cb3-586f-489f-8989-dfe080167d72",
+        "name": "Newham Child and Adolescent Mental Health Service",
+        "category": "Mental Health",
+        "directorate": "Uncategorized",
+        "description": "",
+        "serviceLead": "",
+        "seniorManager": "",
+        "url": "https://www.elft.nhs.uk/services/newham-child-and-adolescent-mental-health-service",
+        "phone": ""
+      }
+    ]
+  }
+]

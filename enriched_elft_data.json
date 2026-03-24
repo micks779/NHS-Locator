@@ -1,0 +1,2081 @@
+[
+  {
+    "id": "mile-end-hospital",
+    "name": "Mile End Hospital",
+    "address": "275 Bancroft Road",
+    "postcode": "E1 4DG",
+    "latitude": 51.5241,
+    "longitude": -0.0441,
+    "receptionPhone": "020 7655 4000",
+    "borough": "TOWER HAMLETS",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-mile-end-hospital-older-adults-i",
+        "name": "Older Adults Inpatient Wards",
+        "category": "Mental Health",
+        "directorate": "Tower Hamlets MH",
+        "description": ""
+      },
+      {
+        "id": "service-mile-end-hospital-inpatient-faci",
+        "name": "Inpatient Facility/E&F/Pharmacy/TH Crisis/Healthroster",
+        "category": "Mental Health",
+        "directorate": "TH MH/TH CHS/Corporate/Estates/Pharmacy",
+        "description": ""
+      },
+      {
+        "id": "service-mile-end-hospital-inpatient-faci",
+        "name": "Inpatient Facility",
+        "category": "Corporate",
+        "directorate": "Tower Hamlets MH",
+        "description": ""
+      },
+      {
+        "id": "service-mile-end-hospital-perinatal-team",
+        "name": "Perinatal Team",
+        "category": "Other",
+        "directorate": "Tower Hamlets MH",
+        "description": ""
+      },
+      {
+        "id": "service-mile-end-hospital-office-opd-mtt",
+        "name": "Office, OPD, MTT, Psych, Comm PD, CIS, E&F, Eating Disorders",
+        "category": "Corporate",
+        "directorate": "Tower Hamlets MH / Corporate",
+        "description": ""
+      },
+      {
+        "id": "service-mile-end-hospital-infection-cont",
+        "name": "Infection Control (IPC) / 111 Crisis Line Merger TH",
+        "category": "Mental Health",
+        "directorate": "Corporate/TH Mental Health",
+        "description": ""
+      },
+      {
+        "id": "service-mile-end-hospital-ld-asd-communi",
+        "name": "LD / ASD Community Forensic Team",
+        "category": "Mental Health",
+        "directorate": "Forensics",
+        "description": ""
+      },
+      {
+        "id": "service-mile-end-hospital-learning-disab",
+        "name": "Learning Disability Team / LD&A Intensive Support Team",
+        "category": "Corporate",
+        "directorate": "Tower Hamlets MH",
+        "description": ""
+      },
+      {
+        "id": "service-mile-end-hospital-extended-prima",
+        "name": "Extended Primary Care Teams x 2, Continuing Healthcare Service, Urgent Community Response and Intermediate Care Service, Directorate Management",
+        "category": "Mental Health",
+        "directorate": "TH CHS",
+        "description": ""
+      },
+      {
+        "id": "service-mile-end-hospital-elft-pharmacy",
+        "name": "ELFT Pharmacy",
+        "category": "Other",
+        "directorate": "Pharmacy",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "john-harrison-house-royal-london-hospital",
+    "name": "John Harrison House (Royal London Hospital)",
+    "address": "London E1 2DR, Philpot St, London E1 2DR",
+    "postcode": "E1 2DR",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "TOWER HAMLETS",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-john-harrison-house-royal-london",
+        "name": "Crisis Line",
+        "category": "Mental Health",
+        "directorate": "TH Mental Health",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "royal-london-hospital",
+    "name": "Royal London Hospital",
+    "address": "Whitechapel Rd, London E1 1FR",
+    "postcode": "E1 1FR",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "TOWER HAMLETS",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-royal-london-hospital-crisis-lin",
+        "name": "Crisis Line",
+        "category": "Mental Health",
+        "directorate": "TH Mental Health",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "glasshouse-fields",
+    "name": "Glasshouse Fields",
+    "address": "68 Glasshouse Fields",
+    "postcode": "E1W 3AB",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "TOWER HAMLETS",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-glasshouse-fields-stepney-and-wa",
+        "name": "Stepney and Wapping Neighbourhood Mental Health Team",
+        "category": "Mental Health",
+        "directorate": "Tower Hamlets MH",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "barkantine-centre",
+    "name": "Barkantine Centre",
+    "address": "121 Westferry Road",
+    "postcode": "E14 8JH",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "TOWER HAMLETS",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-barkantine-centre-neighbourhood-",
+        "name": "Neighbourhood Mental Health Team",
+        "category": "Mental Health",
+        "directorate": "TH Mental Health",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "newby-place",
+    "name": "Newby Place",
+    "address": "21 Newby Place",
+    "postcode": "E14 0EY",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "TOWER HAMLETS",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-newby-place-foot-health-1-room-e",
+        "name": "Foot Health (1 Room), Extended Primary Care Teams x 2 / Accelerate CIC",
+        "category": "Community Health",
+        "directorate": "TH CHS",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "tower-hamlets-town-hall",
+    "name": "Tower Hamlets Town Hall",
+    "address": "160 Whitechapel Road, London",
+    "postcode": "E1 1BJ",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "TOWER HAMLETS",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-tower-hamlets-town-hall-th-crisi",
+        "name": "TH Crisis Liaison",
+        "category": "Mental Health",
+        "directorate": "Tower Hamlets MH",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "the-green",
+    "name": "The Green",
+    "address": "1 Roger Dowley Court",
+    "postcode": "E2 9NJ",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "TOWER HAMLETS",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-the-green-it-service-desk-networ",
+        "name": "IT Service Desk / Networks Team",
+        "category": "Mental Health",
+        "directorate": "IT/IMT/Mental Health ACT Office",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "emmanuel-miller-centre-gill-st-health-centre",
+    "name": "Emmanuel Miller Centre (Gill St Health Centre)",
+    "address": "11 Gill Street",
+    "postcode": "E14 8HQ",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "TOWER HAMLETS",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-emmanuel-miller-centre-gill-st-h",
+        "name": "CAMHS",
+        "category": "Children",
+        "directorate": "Children and Specialist Services",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "old-montague-st",
+    "name": "Old Montague St",
+    "address": "86 Old Montague St",
+    "postcode": "E1 5NN",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "TOWER HAMLETS",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-old-montague-st-rehab-clozapine-",
+        "name": "Rehab, Clozapine, Therapy Club; AOS, RAMHP",
+        "category": "Mental Health",
+        "directorate": "TH Mental Health",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "greatorex-st",
+    "name": "Greatorex St",
+    "address": "16-18 Greatorex St",
+    "postcode": "E1 5NF",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "TOWER HAMLETS",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-greatorex-st-camhs",
+        "name": "CAMHS",
+        "category": "Children",
+        "directorate": "Children and Specialist Services",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "three-colts-lane",
+    "name": "Three Colts Lane",
+    "address": "51 Three Colts Lane",
+    "postcode": "E2 6BF",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "TOWER HAMLETS",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-three-colts-lane-tower-hamlets-e",
+        "name": "Tower Hamlets Early Intervention Service and Early Detection Service. CMHT, EIS, EDS - Adult Mental Health Service",
+        "category": "Mental Health",
+        "directorate": "TH Mental Health",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "health-e1",
+    "name": "Health E1",
+    "address": "9-11 Brick Lane, Spitalfields",
+    "postcode": "E1 6PU",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "TOWER HAMLETS",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-health-e1-gp-practice-informatio",
+        "name": "GP Practice / Information Governance",
+        "category": "Primary Care",
+        "directorate": "Primary Care / IG",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "71-johnson-street",
+    "name": "71 Johnson Street",
+    "address": "71 Johnson Street",
+    "postcode": "E1 0AQ",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "TOWER HAMLETS",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-71-johnson-street-iapt",
+        "name": "IAPT",
+        "category": "Children",
+        "directorate": "Children and Specialist Services",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "bethnal-green-health-centre",
+    "name": "Bethnal Green Health Centre",
+    "address": "60 Florida St",
+    "postcode": "E2 6LL",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "TOWER HAMLETS",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-bethnal-green-health-centre-foot",
+        "name": "Foot Health (1 Room). Accelerate CIC (1 Room) for Leg Ulcer Clinics",
+        "category": "Community Health",
+        "directorate": "TH CHS / Accelerate",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "city-and-hackney-centre-for-mental-health",
+    "name": "City & Hackney Centre For Mental Health",
+    "address": "Homerton Row",
+    "postcode": "E9 6SR",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "CITY & HACKNEY",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-city-and-hackney-centre-for-ment",
+        "name": "Inpatient Unit",
+        "category": "Mental Health",
+        "directorate": "City & Hackney MH",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "donald-winnicott-centre",
+    "name": "Donald Winnicott Centre",
+    "address": "Coate Street",
+    "postcode": "E2 9AG",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "CITY & HACKNEY",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-donald-winnicott-centre-equip-so",
+        "name": "EQUIP/ South Hackney Recovery Team",
+        "category": "Mental Health",
+        "directorate": "City & Hackney MH",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "cedar-lodge",
+    "name": "Cedar Lodge",
+    "address": "London",
+    "postcode": "E9 6AT",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "CITY & HACKNEY",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-cedar-lodge-2-crozier-terrace-e9",
+        "name": "2 Crozier Terrace, E9 6AT, City & Hackney MH, Specialist Psychotherapy Service/MBT Outreach/North Hackney Recovery Team/Neighbourhood Teams/Ocean (Maternal Mental Health Service)",
+        "category": "Mental Health",
+        "directorate": "Cedar Lodge",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "primrose-centre",
+    "name": "Primrose Centre",
+    "address": "23 Primrose Square",
+    "postcode": "E9 7TS",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "CITY & HACKNEY",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-primrose-centre-community-rehabi",
+        "name": "Community Rehabilitation Team/ELFT Recovery College/Autism and ADHD Assessment Clinics",
+        "category": "Mental Health",
+        "directorate": "City & Hackney MH",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "john-scott-health-centre",
+    "name": "John Scott Health Centre",
+    "address": "Green Lane",
+    "postcode": "N4 2NU",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "CITY & HACKNEY",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-john-scott-health-centre-camhs",
+        "name": "CAMHS",
+        "category": "Children",
+        "directorate": "Children and Specialist Services",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "15-homerton-row",
+    "name": "15 Homerton Row",
+    "address": "15 Homerton Row",
+    "postcode": "E9 6ED",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "CITY & HACKNEY",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-15-homerton-row-camhs",
+        "name": "CAMHS",
+        "category": "Children",
+        "directorate": "Children and Specialist Services",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "30-felstead-st",
+    "name": "30 Felstead St",
+    "address": "30 Felstead St",
+    "postcode": "E9 5LG",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "CITY & HACKNEY",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-30-felstead-st-mhcop-and-dementi",
+        "name": "MHCOP and Dementia Service",
+        "category": "Corporate",
+        "directorate": "City & Hackney MH",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "st-leonard-s-hospital",
+    "name": "St Leonard's Hospital",
+    "address": "Nuttall St",
+    "postcode": "N1 5LZ",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "CITY & HACKNEY",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-st-leonard-s-hospital-integrated",
+        "name": "Integrated LD Team office base",
+        "category": "Corporate",
+        "directorate": "City & Hackney MH",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "26-shore-road",
+    "name": "26 Shore Road",
+    "address": "26 Shore Road",
+    "postcode": "E9 7TA",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "CITY & HACKNEY",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-26-shore-road-changing-lanes-iir",
+        "name": "Changing Lanes/IIRMS/ELFOS/SCFT",
+        "category": "Forensic",
+        "directorate": "Forensics",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "the-greenhouse-medical-centre",
+    "name": "The Greenhouse Medical Centre",
+    "address": "19 Tudor Road",
+    "postcode": "E9 7SN",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "CITY & HACKNEY",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-the-greenhouse-medical-centre-cl",
+        "name": "Clinical Teams",
+        "category": "Primary Care",
+        "directorate": "Primary Care/IG",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "unit-6",
+    "name": "Unit 6",
+    "address": "Unit 6, 7&8 Kings Wharf, 301 Kingsland Road",
+    "postcode": "E8 4DS",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-unit-6-mapa-training",
+        "name": "MAPA Training",
+        "category": "Corporate",
+        "directorate": "Corporate",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "newham-centre-for-mental-health",
+    "name": "Newham Centre for Mental Health",
+    "address": "Newham Centre for Mental Health, Glen Road",
+    "postcode": "E13 8SP",
+    "latitude": 51.5226,
+    "longitude": 0.0248,
+    "receptionPhone": "020 7655 4000",
+    "borough": "NEWHAM",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-newham-centre-for-mental-health-",
+        "name": "Inpatient Unit",
+        "category": "Mental Health",
+        "directorate": "Newham Mental Health",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "newham-day-academic-centre",
+    "name": "Newham Day/Academic Centre",
+    "address": "Newham Centre for Mental Health, Glen Road",
+    "postcode": "E13 8SP",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "NEWHAM",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-newham-day-academic-centre-acade",
+        "name": "Academic/Day Centre",
+        "category": "Mental Health",
+        "directorate": "Newham Mental Health",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "coborn-adolescent-unit",
+    "name": "Coborn Adolescent Unit",
+    "address": "Newham Centre for Mental Health, Glen Road",
+    "postcode": "E13 8SP",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "NEWHAM",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-coborn-adolescent-unit-camhs-inp",
+        "name": "CAMHS/ Inpatient Unit",
+        "category": "Mental Health",
+        "directorate": "Children and Specialist Services",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "newham-university-hospital",
+    "name": "Newham University Hospital",
+    "address": "Newham Centre for Mental Health, Glen Road",
+    "postcode": "E13 8SP",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "NEWHAM",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-newham-university-hospital-perin",
+        "name": "Perinatal Team",
+        "category": "Mental Health",
+        "directorate": "Newham Mental Health",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "passmore-edwards-building",
+    "name": "Passmore Edwards Building",
+    "address": "Shrewsbury Road",
+    "postcode": "E7 8QR",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "NEWHAM",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-passmore-edwards-building-cmht-n",
+        "name": "CMHT NE / EIS / CCN",
+        "category": "Mental Health",
+        "directorate": "Newham Mental Health",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "first-avenue-resource-centre",
+    "name": "First Avenue Resource Centre",
+    "address": "103 First Avenue",
+    "postcode": "E13 8AP",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "NEWHAM",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-first-avenue-resource-centre-mhc",
+        "name": "MHCOP",
+        "category": "Mental Health",
+        "directorate": "Newham Mental Health",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "york-house",
+    "name": "York House",
+    "address": "411 Barking Road",
+    "postcode": "E13 8AL",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "NEWHAM",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-york-house-newham-crisis-htt-tea",
+        "name": "NEWHAM Crisis/HTT - Team Base",
+        "category": "Mental Health",
+        "directorate": "Children and Specialist Services",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "385-barking-road",
+    "name": "385 Barking Road",
+    "address": "385 Barking Road",
+    "postcode": "E13 8AL",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "NEWHAM",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-385-barking-road-home-treatment-",
+        "name": "Home Treatment Team - Team base",
+        "category": "Children",
+        "directorate": "Children and Specialist Services",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "409-stratford-high-st",
+    "name": "409 Stratford High St",
+    "address": "409 Stratford High St",
+    "postcode": "E15 4QZ",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "NEWHAM",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-409-stratford-high-st-pts",
+        "name": "PTS",
+        "category": "Mental Health",
+        "directorate": "Newham Mental Health",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "115-balaam-st",
+    "name": "115 Balaam St",
+    "address": "115 Balaam St",
+    "postcode": "E13 8AF",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "NEWHAM",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-115-balaam-st-pts-clozapine-clin",
+        "name": "PTS/Clozapine Clinic",
+        "category": "Mental Health",
+        "directorate": "Newham Mental Health",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "117-balaam-st",
+    "name": "117 Balaam St",
+    "address": "117 Balaam St",
+    "postcode": "E13 8AF",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "NEWHAM",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-117-balaam-st-cimhs-s-mental-hea",
+        "name": "CIMHS S/ Mental Health Services",
+        "category": "Mental Health",
+        "directorate": "Newham Mental Health",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "119-balaam-st",
+    "name": "119 Balaam St",
+    "address": "119 Balaam St",
+    "postcode": "E13 8AF",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "NEWHAM",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-119-balaam-st-team-base",
+        "name": "Team Base",
+        "category": "Mental Health",
+        "directorate": "Newham Mental Health & Specialist Services",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "121-balaam-st",
+    "name": "121 Balaam St",
+    "address": "121 Balaam St",
+    "postcode": "E13 8AF",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "NEWHAM",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-121-balaam-st-iapt",
+        "name": "IAPT",
+        "category": "Children",
+        "directorate": "Children and Specialist Services",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "appleby-centre",
+    "name": "Appleby Centre",
+    "address": "63 Appleby Road",
+    "postcode": "E16 1LQ",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "NEWHAM",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-appleby-centre-foot-health-ccnt-",
+        "name": "Foot Health / CCNT / Kent Dental / Early Intervention in Psychosis Service (EIPS) alongside CHN services",
+        "category": "Mental Health",
+        "directorate": "Newham CHS / Kent Dental Foundation Trust / Newham Mental Health",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "joyce-campbell",
+    "name": "Joyce Campbell",
+    "address": "478 Barking Road",
+    "postcode": "E6 2LT",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "NEWHAM",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-joyce-campbell-scyps",
+        "name": "SCYPS",
+        "category": "Children",
+        "directorate": "Children and Specialist Services",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "katherine-road",
+    "name": "Katherine Road",
+    "address": "494 Katherine Road",
+    "postcode": "E7 8DP",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "NEWHAM",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-katherine-road-iapt",
+        "name": "IAPT",
+        "category": "Children",
+        "directorate": "Children and Specialist Services",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "19-21-high-st-south",
+    "name": "19 - 21 High St South",
+    "address": "19 - 21 High St South",
+    "postcode": "E6 6EN",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "NEWHAM",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-19-21-high-st-south-sickle-cell-",
+        "name": "Sickle Cell & Thalasaemia team base",
+        "category": "Children",
+        "directorate": "Childrens and Specialist Services",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "29-romford-road",
+    "name": "29 Romford Road",
+    "address": "29 Romford Road",
+    "postcode": "E15 4LY",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "NEWHAM",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-29-romford-road-msk-ld-services-",
+        "name": "MSK, LD Services, Cardiac Rehab, Continence and Pelvic Rehab",
+        "category": "Community Health",
+        "directorate": "Newham CHS",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "7-9-edith-road",
+    "name": "7-9 Edith Road",
+    "address": "7-9 Edith Road",
+    "postcode": "E6 1DE",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "NEWHAM",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-7-9-edith-road-two-adjacent-smal",
+        "name": "two adjacent small houses let to Housing Association to provide homes for life for former patients with mental health problems",
+        "category": "Mental Health",
+        "directorate": "CORPORATE - Estates",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "29-31-edith-road",
+    "name": "29-31 Edith Road",
+    "address": "29-31 Edith Road",
+    "postcode": "E6 1DE",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "NEWHAM",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-29-31-edith-road-two-adjacent-sm",
+        "name": "two adjacent small houses let to Housing Association to provide homes for life for former patients with mental health problems",
+        "category": "Mental Health",
+        "directorate": "CORPORATE - Estates",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "e16-health-pontoon-dock",
+    "name": "E16 Health - Pontoon Dock",
+    "address": "Royal Wharf, N Woolwich Rd",
+    "postcode": "E16 2TH",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "NEWHAM",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-e16-health-pontoon-dock-pontoon-",
+        "name": "Pontoon Docks",
+        "category": "Other",
+        "directorate": "ELFT 50% Stakeholder (ELFT do not occupy the building)",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "john-howard-centre",
+    "name": "John Howard Centre",
+    "address": "12 Kenworthy Road",
+    "postcode": "E9 5TD",
+    "latitude": 51.5482,
+    "longitude": -0.0485,
+    "receptionPhone": "020 7655 4000",
+    "borough": "CITY & HACKNEY",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-john-howard-centre-inpatient-fac",
+        "name": "Inpatient Facility",
+        "category": "Forensic",
+        "directorate": "FORENSIC",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "john-warburton-building",
+    "name": "John Warburton Building",
+    "address": "12 Kenworthy Road",
+    "postcode": "E9 5TD",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "CITY & HACKNEY",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-john-warburton-building-inpatien",
+        "name": "Inpatient Facility",
+        "category": "Forensic",
+        "directorate": "FORENSIC",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "whitbread-building",
+    "name": "Whitbread Building",
+    "address": "12 Kenworthy Road",
+    "postcode": "E9 5TD",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "CITY & HACKNEY",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-whitbread-building-inpatient-fac",
+        "name": "Inpatient Facility",
+        "category": "Forensic",
+        "directorate": "FORENSIC",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "elizabeth-fry-building",
+    "name": "Elizabeth Fry Building",
+    "address": "12 Kenworthy Road",
+    "postcode": "E9 5TD",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "CITY & HACKNEY",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-elizabeth-fry-building-inpatient",
+        "name": "Inpatient Facility",
+        "category": "Forensic",
+        "directorate": "FORENSIC",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "beaumont-building",
+    "name": "Beaumont Building",
+    "address": "12 Kenworthy Road",
+    "postcode": "E9 5TD",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "CITY & HACKNEY",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-beaumont-building-inpatient-faci",
+        "name": "Inpatient Facility",
+        "category": "Forensic",
+        "directorate": "FORENSIC",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "main-reception",
+    "name": "Main Reception",
+    "address": "12 Kenworthy Road",
+    "postcode": "E9 5TD",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "CITY & HACKNEY",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-main-reception-team-base",
+        "name": "Team Base",
+        "category": "Forensic",
+        "directorate": "FORENSIC Reception",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "millfields-unit",
+    "name": "Millfields Unit",
+    "address": "12 Kenworthy Road",
+    "postcode": "E9 5TD",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "CITY & HACKNEY",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-millfields-unit-inpatient-facili",
+        "name": "Inpatient Facility",
+        "category": "Forensic",
+        "directorate": "FORENSIC",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "wolfson-house",
+    "name": "Wolfson House",
+    "address": "311-315 Green Lanes",
+    "postcode": "N4 2ES",
+    "latitude": 51.5645,
+    "longitude": -0.0912,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-wolfson-house-recovery-unit",
+        "name": "Recovery Unit",
+        "category": "Mental Health",
+        "directorate": "FORENSIC",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "alie-st",
+    "name": "Alie St",
+    "address": "9 Alie St",
+    "postcode": "E1 8DE",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-alie-st-team-base",
+        "name": "Team Base",
+        "category": "Corporate",
+        "directorate": "CORPORATE - Estates / Staffside Unions / HR / Finance / Exec",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "unit-10h-brittania-ind-estate",
+    "name": "Unit 10H Brittania Ind Estate",
+    "address": "Unit 10H Britannia Estate, Leagrave Road",
+    "postcode": "LU3 1RJ",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LONDON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-unit-10h-brittania-ind-estate-pp",
+        "name": "PPE storage facility",
+        "category": "Corporate",
+        "directorate": "Procurement",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "charter-house",
+    "name": "Charter House",
+    "address": "Alma St",
+    "postcode": "LU1 2PJ",
+    "latitude": 51.8814,
+    "longitude": -0.4184,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LUTON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-charter-house-camhs-finance-digi",
+        "name": "CAMHS/Finance/Digital/E & F/ EIS/ HR/ Performance/Safeguarding/Exec/Pshycology/ RSI Team/ Clozepine Clinic/ CMHT",
+        "category": "Mental Health",
+        "directorate": "Childrens and Specialist Services/Corporate/Trust HQ/Bedfordshire & Luton MH/ Quality & Performance",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "car-parking-and-premises-at-alma-st",
+    "name": "Car Parking & Premises at Alma St",
+    "address": "Alma St",
+    "postcode": "LU1 2PJ",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LUTON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-car-parking-and-premises-at-alma",
+        "name": "-",
+        "category": "Mental Health",
+        "directorate": "Luton Mental Health",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "lu4-0dz",
+    "name": "LU4 0DZ",
+    "address": "Lewsey Rd",
+    "postcode": "LU4 0DZ",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LUTON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-lu4-0dz-the-landd-hospital-lewse",
+        "name": "The L&D Hospital, Lewsey Rd, Luton LU4 0DZ - A&E Department (2175), 2175, Luton, The L&D Hospital, Lewsey Rd, Luton LU4 0DZ, A&E Department, Lewsey Rd, Luton, LU4 0DZ, Luton Mental Health, PLS (Pshyciatric Liaison Service)",
+        "category": "Mental Health",
+        "directorate": "UK",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "calnwood-court-luton-and-central-beds-crystal-ward",
+    "name": "(Calnwood Court) Luton & Central Beds - Crystal Ward",
+    "address": "Calnwood Road",
+    "postcode": "LU4 0FB",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LUTON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-calnwood-court-luton-and-central",
+        "name": "Inpatient",
+        "category": "Mental Health",
+        "directorate": "Luton Mental Health",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "robin-pinto-unit",
+    "name": "Robin Pinto Unit",
+    "address": "Calnwood Road",
+    "postcode": "LU4 0FB",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LUTON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-robin-pinto-unit-mh-law-ot-eput-",
+        "name": "MH Law/ OT (EPUT) / Medical Education / Pshyciatrists",
+        "category": "Mental Health",
+        "directorate": "Luton Mental Health/Corporate",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "calnwood-court-luton-and-central-beds-camhs-evergeen",
+    "name": "(Calnwood Court) Luton & Central Beds - CAMHS Evergeen",
+    "address": "Calnwood Road",
+    "postcode": "LU4 0FB",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LUTON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-calnwood-court-luton-and-central",
+        "name": "CAMHS Evergreen Inpatient",
+        "category": "Children",
+        "directorate": "Children's and Specialist Services",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "luton-and-central-mh-sports-hall",
+    "name": "Luton & Central MH - Sports Hall",
+    "address": "Calnwood Road",
+    "postcode": "LU4 0FB",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LUTON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-luton-and-central-mh-sports-hall",
+        "name": "EPUT",
+        "category": "Mental Health",
+        "directorate": "Luton Mental Health / Gym and Sports Hall leased to EPUT",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "luton-and-central-mh-inpatient-unit-2-onyx-ward",
+    "name": "Luton & Central MH Inpatient Unit 2 - Onyx Ward",
+    "address": "Calnwood Road",
+    "postcode": "LU4 0FB",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LUTON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-luton-and-central-mh-inpatient-u",
+        "name": "Inpatient",
+        "category": "Mental Health",
+        "directorate": "Luton Mental Health",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "luton-and-central-mh-outpatient-unit-2-ect-suite-and-pharmacy",
+    "name": "Luton & Central MH Outpatient Unit 2 - ECT Suite and Pharmacy",
+    "address": "Calnwood Road",
+    "postcode": "LU4 0FB",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LUTON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-luton-and-central-mh-outpatient-",
+        "name": "ECT/Pharmacy/Deputy Borough Director Offices",
+        "category": "Mental Health",
+        "directorate": "Luton Mental Health",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "luton-and-central-mh-coral-ward",
+    "name": "Luton & Central MH - Coral Ward",
+    "address": "Calnwood Road",
+    "postcode": "LU4 0DZ",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LUTON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-luton-and-central-mh-coral-ward-",
+        "name": "Inpatient",
+        "category": "Mental Health",
+        "directorate": "Luton Mental Health",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "luton-and-central-mh-jade-ward-picu-inpatient-unit-3",
+    "name": "Luton & Central MH - Jade Ward/PICU Inpatient Unit 3",
+    "address": "Calnwood Road",
+    "postcode": "LU4 0DZ",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LUTON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-luton-and-central-mh-jade-ward-p",
+        "name": "Inpatient",
+        "category": "Mental Health",
+        "directorate": "Luton Mental Health",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "luton-and-central-mh-section-136-and-seclusion-room-unit-inpatient-unit-3",
+    "name": "Luton & Central MH - Section 136 & Seclusion Room Unit Inpatient Unit 3",
+    "address": "Calnwood Road",
+    "postcode": "LU4 0DZ",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LUTON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-luton-and-central-mh-section-136",
+        "name": "Inpatient",
+        "category": "Mental Health",
+        "directorate": "Luton Mental Health",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "oakley-court",
+    "name": "Oakley Court",
+    "address": "Angel Close",
+    "postcode": "LU4 9WT",
+    "latitude": 51.8984,
+    "longitude": -0.4682,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LUTON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-oakley-court-inpatient-ash-willo",
+        "name": "Inpatient - ASH/WILLOW WARD",
+        "category": "Mental Health",
+        "directorate": "Bedford Mental Health",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "sundon-park-health-centre",
+    "name": "Sundon Park Health Centre",
+    "address": "Tenth Avenue",
+    "postcode": "LU3 3EP",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LUTON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-sundon-park-health-centre-podiat",
+        "name": "Podiatry",
+        "category": "Community Health",
+        "directorate": "Bedford CHS",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "luton-central-library",
+    "name": "Luton Central Library",
+    "address": "St George's Square",
+    "postcode": "LU1 2NG",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LUTON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-luton-central-library-team-base-",
+        "name": "Team Base / Luton Recovery College",
+        "category": "Mental Health",
+        "directorate": "Luton Mental Health",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "luton-police-station",
+    "name": "Luton Police Station",
+    "address": "Buxton Road",
+    "postcode": "LU1 1SD",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "LUTON",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-luton-police-station-court-liais",
+        "name": "Court Liaison & Diversion Team Base",
+        "category": "Mental Health",
+        "directorate": "Luton Mental Health",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "florence-ball-house",
+    "name": "Florence Ball House",
+    "address": "3 Kimbolton Road",
+    "postcode": "MK40 2NX",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "BEDFORDSHIRE",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-florence-ball-house-bedford-cmht",
+        "name": "Bedford CMHT",
+        "category": "Mental Health",
+        "directorate": "Bedford Mental Health",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "john-bunyan-house-part-ground-floor-only",
+    "name": "John Bunyan House (Part Ground Floor only)",
+    "address": "3 Kimbolton Road",
+    "postcode": "MK40 2NT",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "BEDFORDSHIRE",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-john-bunyan-house-part-ground-fl",
+        "name": "MMHS / Perinatal and Mental Health OCEAN services",
+        "category": "Mental Health",
+        "directorate": "Bedford Mental Health",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "kempston-clinic",
+    "name": "Kempston Clinic",
+    "address": "Halsey Road, Kempston",
+    "postcode": "MK42 8AU",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "BEDFORDSHIRE",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-kempston-clinic-podiatry-chronic",
+        "name": "Podiatry, Chronic Fatigue, Health Psychology",
+        "category": "Mental Health",
+        "directorate": "Bedford CHS",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "wigmore-lane-health-centre-part-ground-floor",
+    "name": "Wigmore Lane Health Centre - Part Ground Floor",
+    "address": "Wigmore Lane",
+    "postcode": "LU2 8BG",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "BEDFORDSHIRE",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-wigmore-lane-health-centre-part-",
+        "name": "Podiatry & Continence",
+        "category": "Community Health",
+        "directorate": "Bedford CHS",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "barford-avenue",
+    "name": "Barford Avenue",
+    "address": "29 Barford Avenue",
+    "postcode": "MK42 0DS",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "BEDFORDSHIRE",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-barford-avenue-mapa",
+        "name": "MAPA",
+        "category": "Mental Health",
+        "directorate": "Bedford Mental Health",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "bedfordshire-police-station",
+    "name": "Bedfordshire Police Station",
+    "address": "Woburn Road, Woburn Road",
+    "postcode": "MK43 9AX",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "BEDFORDSHIRE",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-bedfordshire-police-station-cour",
+        "name": "Court Liaison & Diversion Team Base",
+        "category": "Mental Health",
+        "directorate": "Bedfordshire Mental Health",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "cedar-house-inpatient-unit",
+    "name": "Cedar House - Inpatient Unit",
+    "address": "3 Kimbolton Road",
+    "postcode": "MK40 2NT",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "BEDFORDSHIRE",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-cedar-house-inpatient-unit-inpat",
+        "name": "Inpatient - Medium to long term mental health rehabilitation units (Length of stay: 12+ Months)",
+        "category": "Mental Health",
+        "directorate": "Bedfordshire Mental Health",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "gilbert-hitchcock-house-part-1st-and-second-floors",
+    "name": "Gilbert Hitchcock House - Part 1st & Second Floors",
+    "address": "Kimbolton Road",
+    "postcode": "MK40 2NU",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "BEDFORDSHIRE",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-gilbert-hitchcock-house-part-1st",
+        "name": "IAPT",
+        "category": "Children",
+        "directorate": "Children and Specialist Services",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "recovery-college-3-woburn-road",
+    "name": "Recovery College - 3 Woburn Road",
+    "address": "3 Woburn Road",
+    "postcode": "MK40 1EG",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "BEDFORDSHIRE",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-recovery-college-3-woburn-road-w",
+        "name": "Wellbeing & Recovery Service",
+        "category": "Mental Health",
+        "directorate": "Bedfordshire Mental Health",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "fountains-court-peppercorn-lease",
+    "name": "Fountains Court (Peppercorn Lease)",
+    "address": "3 Kimbolton Road",
+    "postcode": "MK40 2NX",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "BEDFORDSHIRE",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-fountains-court-peppercorn-lease",
+        "name": "Older People Inpatient Services",
+        "category": "Mental Health",
+        "directorate": "Bedfordshire Mental Health",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "18-grove-place",
+    "name": "18 Grove Place",
+    "address": "18 Grove Place (Suite C, D & F)",
+    "postcode": "MK40 3LE",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "BEDFORDSHIRE",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-18-grove-place-camhs",
+        "name": "CAMHS",
+        "category": "Children",
+        "directorate": "Childrens and Specialist Services",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "24-grove-place",
+    "name": "24 Grove Place",
+    "address": "24 Grove Place",
+    "postcode": "MK40 3LE",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "BEDFORDSHIRE",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-24-grove-place-camhs",
+        "name": "CAMHS",
+        "category": "Children",
+        "directorate": "Childrens and Specialist Services",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "3-rush-cout",
+    "name": "3 Rush Cout",
+    "address": "Off Grove Place",
+    "postcode": "MK40 3LE",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "BEDFORDSHIRE",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-3-rush-cout-camhs",
+        "name": "CAMHS",
+        "category": "Children",
+        "directorate": "Childrens and Specialist Services",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "rush-court-5-7-and-5-9",
+    "name": "Rush Court 5-7 & 5-9",
+    "address": "Off Grove Place",
+    "postcode": "MK42 3JT",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "BEDFORDSHIRE",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-rush-court-5-7-and-5-9-camhs",
+        "name": "CAMHS",
+        "category": "Children",
+        "directorate": "Childrens and Specialist Services",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "rush-court",
+    "name": "Rush Court",
+    "address": "Rush Court",
+    "postcode": "MK42 3JT",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "BEDFORDSHIRE",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-rush-court-rush-court",
+        "name": "Rush Court",
+        "category": "Children",
+        "directorate": "Childrens and Specialist Services",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "21",
+    "name": "21",
+    "address": "The Crescent, 21 The Crescent",
+    "postcode": "MK40 2RT",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "BEDFORDSHIRE",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-21-p2r",
+        "name": "P2R",
+        "category": "Children",
+        "directorate": "Children and Specialist Services",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "mk43-8hj",
+    "name": "MK43 8HJ",
+    "address": "2 The Glades",
+    "postcode": "MK43 8HJ",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "BEDFORD",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-mk43-8hj-the-coppice-the-coppice",
+        "name": "The Coppice - The Coppice, 2 The Glades (nan), , Bedfordshire, The Coppice, The Coppice, 2 The Glades, 2 The Glades, Northampton Road, Bromham, Bedford, MK43 8HJ, Bedford Mental Health, Currently Closed. Inpatient Ward for people with learning disability",
+        "category": "Mental Health",
+        "directorate": "UK",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "mountbatten-house",
+    "name": "Mountbatten House",
+    "address": "56 High St South",
+    "postcode": "LU6 3HD",
+    "latitude": 51.8845,
+    "longitude": -0.5212,
+    "receptionPhone": "020 7655 4000",
+    "borough": "BEDFORDSHIRE",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-mountbatten-house-chronic-fatigu",
+        "name": "Chronic Fatigue & Health Psychology / Eating Disorders & Complex Needs / Cancer Palliative Care",
+        "category": "Mental Health",
+        "directorate": "Bedford CHS / Bedfordshire Mental Health",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "mk41-6at",
+    "name": "MK41 6AT",
+    "address": "Twinwoods Health Resource Centre",
+    "postcode": "MK41 6AT",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "BEDFORD",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-mk41-6at-twinwoods-the-lodge-220",
+        "name": "Twinwoods - The Lodge (2200e), 2200e, Bedfordshire, Twinwoods, The Lodge, Twinwoods Health Resource Centre, Milton Road, Clapham, Bedford, MK41 6AT, Bedfordshire Mental Health / Digital / Corporate, E&F / Digital / IPC / Rydon Hard FM Office Base",
+        "category": "Mental Health",
+        "directorate": "UK",
+        "description": ""
+      },
+      {
+        "id": "service-mk41-6at-twinwoods-admin-block-2",
+        "name": "Twinwoods - Admin Block (2200c), 2200c, Bedfordshire, Twinwoods, Admin Block, Twinwoods Health Resource Centre, Milton Road, Clapham, Bedford, MK41 6AT, Bedfordshire Mental Health / Bedford CHS, Admin, Specialist Nursing, Warfarin/Phlebotomy, Management, PCH North Therapy",
+        "category": "Mental Health",
+        "directorate": "UK",
+        "description": ""
+      },
+      {
+        "id": "service-mk41-6at-twinwoods-whitbread-cen",
+        "name": "Twinwoods - Whitbread Centre (2200g), 2200g, Bedfordshire, Twinwoods, Whitbread Centre, Twinwoods Health Resource Centre, Milton Road, Clapham, Bedford, MK41 6AT, Bedfordshire Mental Health, Bedford older adults cmht / Crisis resolution / Memory assessment service",
+        "category": "Mental Health",
+        "directorate": "UK",
+        "description": ""
+      },
+      {
+        "id": "service-mk41-6at-twinwoods-russell-centr",
+        "name": "Twinwoods - Russell Centre (2200b), 2200b, Bedfordshire, Twinwoods, Russell Centre, Twinwoods Health Resource Centre, Milton Road, Clapham, Bedford, MK41 6AT, Bedfordshire Mental Health, OCS office / Digital comms room",
+        "category": "Mental Health",
+        "directorate": "UK",
+        "description": ""
+      },
+      {
+        "id": "service-mk41-6at-twinwoods-raymond-smith",
+        "name": "Twinwoods - Raymond Smith (2200a), 2200a, Bedfordshire, Twinwoods, Raymond Smith, Twinwoods Health Resource Centre, Milton Road, Clapham, Bedford, MK41 6AT, Bedfordshire Mental Health, Health facilitation team / Transforming care team / IST – intensive support team / Occupational therapy / Occupational health – Thursdays",
+        "category": "Mental Health",
+        "directorate": "UK",
+        "description": ""
+      },
+      {
+        "id": "service-mk41-6at-twinwoods-clinical-reso",
+        "name": "Twinwoods - Clinical Resource (2200f), 2200f, Bedfordshire, Twinwoods, Clinical Resource, Twinwoods Health Resource Centre, Milton Road, Clapham, Bedford, MK41 6AT, Bedfordshire Mental Health, Art therapy / Physio / Autism service / S.a.l.t (speech & language) / Sight & hearing / Admin / Reception Health facilitation / Community psychiatrists / Occupational therapy / Psychology & positive behaviour",
+        "category": "Mental Health",
+        "directorate": "UK",
+        "description": ""
+      },
+      {
+        "id": "service-mk41-6at-twinwoods-whitchurch-ce",
+        "name": "Twinwoods - Whitchurch Centre (2200d), 2200d, Bedfordshire, Twinwoods, Whitchurch Centre, Twinwoods Health Resource Centre, Milton Road, Clapham, Bedford, MK41 6AT, Bedford CHS, PCH North Nursing, PCH North Therapy, Specialist Nursing, Bedfordshire Mental Health and Wellbeing Service, Bedford Recovery Service, Specialist Services for People with a Learning Disability (Bedfordshire and Luton), Learning Disabilities Intensive Support Team - Bedfordshire, Early Intervention Service (Bedfordshire), Bedford Older People's CMHT",
+        "category": "Mental Health",
+        "directorate": "UK",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "kelvin-grove",
+    "name": "Kelvin Grove",
+    "address": "18 Rothsay Road",
+    "postcode": "MK40 3PN",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "BEDFORDSHIRE",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-kelvin-grove-homes-for-life",
+        "name": "Homes for life",
+        "category": "Other",
+        "directorate": "Homes for life - Places for People",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "roman-court",
+    "name": "Roman Court",
+    "address": "Houghton Regis, Dunstable",
+    "postcode": "LU5 5UB",
+    "latitude": 51.52,
+    "longitude": 0.03,
+    "receptionPhone": "020 7655 4000",
+    "borough": "BEDFORDSHIRE",
+    "hasStepFreeAccess": true,
+    "hasParking": false,
+    "teams": [
+      {
+        "id": "service-roman-court-roman-court",
+        "name": "Roman Court",
+        "category": "Other",
+        "directorate": "Uncategorized",
+        "description": ""
+      }
+    ]
+  }
+]
